@@ -38,12 +38,12 @@
             <div class="cs_footer_top d-flex justify-content-between align-items-start align-items-md-center cs_pt_46 cs_pb_46 cs_column_gap_15 cs_row_gap_15 flex-md-row  flex-column">
                 <div class="cs_footer_contact_info">
                     <h3 class="text-accent fw-normal cs_mb_4 cs_fs_16 cs_lh_lg">Have Any Question?</h3>
-                    <h2 class="text-white fw-medium m-0 cs_fs_22">+ 070 4531 9507 </h2>
+                    <h2 class="text-white fw-medium m-0 cs_fs_22">+971 54 548 5795 </h2>
                 </div>
-                <div class="cs_footer_logo wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.2s"><img src="{{ asset('/assets/img/logo.svg') }}" alt="Logo"></div>
+                <div class="cs_footer_logo wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.2s"><img src="{{ asset('/assets/img/favicon.png') }}" alt="Logo"></div>
                 <div class="cs_footer_contact_info">
                     <h3 class="text-accent fw-normal cs_mb_4 cs_fs_16 cs_lh_lg">Send Email</h3>
-                    <h2 class="text-white fw-medium m-0 cs_fs_22"><a href="mailto:bizmax@laralink.com">bizmax@laralink.com</a></h2>
+                    <h2 class="text-white fw-medium m-0 cs_fs_22"><a href="mailto:mastermindz.fze@gmail.com">mastermindz.fze@gmail.com</a></h2>
                 </div>
             </div>
             <div class="cs_footer_main cs_pt_30 cs_pb_30">
@@ -51,7 +51,7 @@
                     <div class="col-lg-4">
                         <div class="cs_footer_item cs_pt_20 cs_pb_20">
                             <div class="cs_text_widget">
-                                <p>I've been using [business name] for the past year and I'm so glad I did. Their products and services are top-notch and their customer service is amazing. I would highly recommend them to anyone</p>
+                                <p>We are always looking to collaborate with like-minded businesses and professionals who share our commitment to excellence and innovation. If you are interested in partnering with MasterMinds or exploring potential collaboration opportunities, please feel free to contact us.</p>
                             </div>
                             <div class="cs_social_btns d-flex flex-wrap cs_column_gap_15 cs_row_gap_15 cs_transition_5">
                                 <a href="#" class="d-flex align-items-center justify-content-center cs_height_35 cs_width_35 text-white rounded-circle"><i class="fa-brands fa-facebook-f"></i></a>
@@ -65,15 +65,11 @@
                         <div class="cs_footer_item cs_pt_20 cs_pb_20">
                             <h2 class="cs_widget_title text-white cs_fs_22 cs_mb_22">Explore</h2>
                             <ul class="cs_menu_widget text-uppercase">
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="service.html">Services</a></li>
-                                <li><a href="#">Support </a></li>
-                                <li><a href="pricing.html">Pricing Page</a></li>
-                                <li><a href="portfolio.html">New Projects</a></li>
-                                <li><a href="blog-list-with-sidebar.html">Blog</a></li>
-                                <li><a href="">Privacy Policy</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="{{ route('about') }}">About</a></li>
+                                <li><a href="{{ route('services') }}">Services</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="{{ route('contact') }}">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -96,7 +92,7 @@
         </div>
         <div class="cs_copyright text-center cs_fs_124 cs_lh_lg cs_pt_36 cs_pb_36">
             <div class="container">
-                <p class="m-0">Copyright © 2023 <a href="index.html">bizmax</a>. All rights reserved.</p>
+                <p class="m-0">Copyright © {{ date('Y') }} <a href="{{ route('index') }}">Master Mindz</a>. All rights reserved.</p>
             </div>
         </div>
     </footer>

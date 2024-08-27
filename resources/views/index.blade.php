@@ -122,7 +122,7 @@
 <!-- End Hero -->
 
 <!-- Animated Text -->
-<div class="cs_moving_wrap background-filled text-uppercase text-white d-flex align-items-center" data-src="{{ asset('/assets/img/moving_text_shape') }}">
+<div class="cs_moving_wrap background-filled text-uppercase text-white d-flex align-items-center" data-src="{{ asset('/assets/img/moving_text_shape.png') }}">
     <div class="cs_moving_text cs_fs_30 cs_fs_lg_26 d-flex align-items-center text-nowrap">
         <span>* Integrity</span>
         <span>* Excellence</span>
@@ -153,13 +153,13 @@
             <div class="col-lg-6 cs_mb_lg_55">
                 <div class="cs_experience cs_style_1 position-relative">
                     <div class="cs_experience_thumb">
-                        <img src="assets/img/experience_img.jpeg" alt="Thumb" class="position-relative cs_zindex_3 cs_rounded_15">
+                        <img src="{{ asset('/assets/img/experience_img.png') }}" alt="Thumb" class="position-relative cs_zindex_3 cs_rounded_15">
                         <div class="cs_experience_shape"><img src="assets/img/experience_shape_1.png" alt="Shape" class="moving_x"></div>
                     </div>
-                    <div class="cs_experience_box background-filled text-center bg-white cs_rounded_10 position-absolute bottom-0 end-0 cs_zindex_3 d-flex flex-column justify-content-center align-items-center" data-src="assets/img/experience_bg.jpeg">
-                        <img src="assets/img/experience_icon.svg" alt="Icon" class="cs_mb_5">
+                    <div class="cs_experience_box background-filled text-center bg-white cs_rounded_10 position-absolute bottom-0 end-0 cs_zindex_3 d-flex flex-column justify-content-center align-items-center" data-src="{{ asset('/assets/img/experience_bg.png') }}">
+                        <img src="{{ asset('/assets/img/experience_icon.svg') }}" alt="Icon" class="cs_mb_5">
                         <h3 class="text-white cs_fs_60 cs_fs_lg_46 fw-bold lh_1 mb-0 d-flex justify-content-between">
-                            <span data-count-to="40" class="odometer"></span>
+                            <span data-count-to="20" class="odometer"></span>
                             <span class="fw-light">+</span>
                         </h3>
                         <h2 class="cs_fs_18 fw-normal text-white m-0">Work Experience</h2>
@@ -224,7 +224,7 @@
 </section>
 <!-- End About Section -->
 <!-- Start Service Section -->
-<section class="background-filled cs_pt_133 cs_pt_lg_75 cs_pb_140 cs_pb_lg_80 cs_gray_bg" data-src="{{ asset('/assets/img/services_bg') }}">
+<section class="background-filled cs_pt_133 cs_pt_lg_75 cs_pb_140 cs_pb_lg_80 cs_gray_bg" data-src="{{ asset('/assets/img/services_bg.png') }}">
     <div class="container">
         <div class="cs_section_heading cs_style_1 d-flex align-items-center cs_mb_60 cs_mb_lg_40 cs_column_gap_15 cs_row_gap_15">
             <div class="cs_section_heading_in">
@@ -252,16 +252,16 @@
                                 <path d="M36.0414 5.19195C34.5098 4.52484 32.721 5.22773 32.0537 6.7593L31.8784 7.16164V4.14C31.8784 1.85719 30.0212 0 27.7384 0H4.27867C1.99586 0 0.138672 1.85719 0.138672 4.14V35.86C0.138672 38.1428 1.99586 40 4.27867 40H27.7384C30.0212 40 31.8784 38.1428 31.8784 35.86V22.3316C32.1787 21.6423 37.2757 9.94398 37.6087 9.17969C38.2777 7.64445 37.5766 5.86086 36.0414 5.19195ZM21.1896 31.6934H15.213C14.8894 31.6934 14.6271 31.9557 14.6271 32.2794C14.6271 32.603 14.8894 32.8653 15.213 32.8653H20.6816C20.4048 33.5308 20.2655 34.2334 20.2702 34.9561V34.9562L20.2962 38.8281H4.27867C2.64203 38.8281 1.31055 37.4966 1.31055 35.86V4.14C1.31055 2.50336 2.64203 1.17188 4.27867 1.17188H27.7384C29.375 1.17188 30.7065 2.50336 30.7065 4.14V9.85125C29.9661 11.5505 27.8855 16.3256 27.1616 17.9872H15.2131C14.8895 17.9872 14.6272 18.2495 14.6272 18.5731C14.6272 18.8968 14.8895 19.1591 15.2131 19.1591H26.651L25.9182 20.841H15.2131C14.8895 20.841 14.6272 21.1033 14.6272 21.427C14.6272 21.7506 14.8895 22.0129 15.2131 22.0129H25.4076L22.4331 28.8396H15.2131C14.8895 28.8396 14.6272 29.1019 14.6272 29.4255C14.6272 29.7492 14.8895 30.0115 15.2131 30.0115H21.9225L21.1896 31.6934ZM21.4421 34.9483C21.4409 34.7615 21.4532 34.5766 21.4762 34.3937C21.9887 34.617 21.2743 34.3057 24.572 35.7425C24.4537 35.8839 24.3267 36.0188 24.1891 36.1451L21.4669 38.642L21.4421 34.9483ZM30.7065 35.86C30.7065 37.4966 29.375 38.8281 27.7384 38.8281H22.9977L24.9812 37.0088C25.5362 36.4996 25.9702 35.8914 26.2712 35.2008L30.7065 25.0211V35.86ZM25.1968 34.7327C25.1963 34.7337 25.1958 34.7347 25.1953 34.7358L24.0294 34.2278L26.7874 27.8978C26.9166 27.6011 26.7809 27.2559 26.4843 27.1266C26.1875 26.9974 25.8423 27.1331 25.713 27.4297L22.955 33.7597L21.7891 33.2517C21.7896 33.2507 21.7899 33.2496 21.7904 33.2486L30.7481 12.6898L31.9141 13.1977L26.8071 24.9187C26.6779 25.2155 26.8136 25.5607 27.1102 25.69C27.4086 25.8199 27.7529 25.682 27.8815 25.3869L32.9884 13.6658L34.1544 14.1737C34.0119 14.5009 25.3323 34.4216 25.1968 34.7327ZM34.6226 13.0994L31.2162 11.6153L31.7977 10.2808L35.2041 11.7649L34.6226 13.0994ZM36.5344 8.71156L35.6721 10.6905L32.2658 9.20641L33.128 7.22742C33.5371 6.28828 34.6341 5.85711 35.5733 6.26633C36.5145 6.67633 36.9448 7.77 36.5344 8.71156Z" fill="white" />
                             </svg>
                         </div>
-                        <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="services-details.html" class="inline-block">Accounting and Bookkeeping</a></h2>
+                        <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="{{ route('services') }}" class="inline-block">Company Formation and Registration</a></h2>
                     </div>
-                    <p class="cs_mb_24">Services related to financial record-keeping, bookkeeping, preparation.</p>
+
                     <div class="cs_service_thumb position-relative cs_rounded_5">
-                        <a href="services-details.html" class="cs_service_btn d-flex align-items-center justify-content-center rounded-circle position-absolute text-white">
+                        <a href="{{ route('services') }}" class="cs_service_btn d-flex align-items-center justify-content-center rounded-circle position-absolute text-white">
                             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M20.8491 11.347C20.855 11.3381 20.8602 11.3289 20.8656 11.3198C20.8706 11.3114 20.8759 11.3032 20.8805 11.2946C20.8855 11.2853 20.8897 11.2757 20.8942 11.2663C20.8984 11.2573 20.9029 11.2484 20.9067 11.2392C20.9105 11.23 20.9136 11.2206 20.9169 11.2113C20.9205 11.2014 20.9243 11.1916 20.9274 11.1814C20.9302 11.1721 20.9322 11.1626 20.9346 11.1532C20.9372 11.1429 20.9401 11.1327 20.9422 11.1222C20.9444 11.1113 20.9456 11.1003 20.9472 11.0894C20.9485 11.0801 20.9503 11.0711 20.9512 11.0617C20.9532 11.0415 20.9543 11.0213 20.9543 11.001C20.9543 11.0007 20.9543 11.0004 20.9543 11.0001C20.9543 10.9998 20.9543 10.9994 20.9543 10.9991C20.9542 10.9789 20.9532 10.9586 20.9512 10.9384C20.9503 10.929 20.9485 10.92 20.9472 10.9108C20.9456 10.8998 20.9444 10.8888 20.9422 10.8779C20.9401 10.8674 20.9372 10.8572 20.9346 10.8469C20.9322 10.8375 20.9302 10.828 20.9274 10.8187C20.9243 10.8086 20.9205 10.7988 20.9169 10.7889C20.9136 10.7795 20.9105 10.7701 20.9067 10.7609C20.9029 10.7517 20.8984 10.7428 20.8941 10.7338C20.8897 10.7244 20.8855 10.7148 20.8805 10.7055C20.8759 10.6969 20.8706 10.6887 20.8656 10.6803C20.8602 10.6712 20.855 10.662 20.8491 10.6531C20.8428 10.6438 20.8359 10.635 20.8292 10.6261C20.8237 10.6187 20.8186 10.6112 20.8127 10.604C20.7996 10.588 20.7858 10.5727 20.7713 10.5581L15.026 4.81285C14.7819 4.56877 14.3862 4.56877 14.1421 4.81285C13.898 5.05692 13.898 5.45264 14.1421 5.69672L18.8204 10.375L0.88388 10.375C0.53871 10.375 0.258878 10.6548 0.258878 11C0.258878 11.3452 0.53871 11.625 0.88388 11.625L18.8204 11.625L14.1421 16.3033C13.8981 16.5474 13.8981 16.9431 14.1421 17.1872C14.3862 17.4312 14.7819 17.4313 15.026 17.1872L20.7713 11.442C20.7858 11.4274 20.7996 11.4121 20.8127 11.3962C20.8186 11.389 20.8237 11.3814 20.8292 11.374C20.8359 11.3651 20.8428 11.3563 20.8491 11.347Z" fill="currentColor" />
                             </svg>
                         </a>
-                        <div class="cs_service_thumb-in position-relative-in background-filled h-100" data-src="{{ asset('/assets/img/service_1') }}"></div>
+                        <div class="cs_service_thumb-in position-relative-in background-filled h-100" data-src="{{ asset('/assets/img/service_1.png') }}"></div>
                     </div>
                 </div>
             </div>
@@ -285,16 +285,15 @@
                                 </defs>
                             </svg>
                         </div>
-                        <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="services-details.html" class="inline-block">IT Support and Consulting</a></h2>
+                        <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="{{ route('services') }}" class="inline-block">Corporate Secretarial Services</a></h2>
                     </div>
-                    <p class="cs_mb_24">Providing technical support, network setup, software installation.</p>
                     <div class="cs_service_thumb position-relative cs_rounded_5">
-                        <a href="services-details.html" class="cs_service_btn d-flex align-items-center justify-content-center rounded-circle position-absolute text-white">
+                        <a href="{{ route('services') }}" class="cs_service_btn d-flex align-items-center justify-content-center rounded-circle position-absolute text-white">
                             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M20.8491 11.347C20.855 11.3381 20.8602 11.3289 20.8656 11.3198C20.8706 11.3114 20.8759 11.3032 20.8805 11.2946C20.8855 11.2853 20.8897 11.2757 20.8942 11.2663C20.8984 11.2573 20.9029 11.2484 20.9067 11.2392C20.9105 11.23 20.9136 11.2206 20.9169 11.2113C20.9205 11.2014 20.9243 11.1916 20.9274 11.1814C20.9302 11.1721 20.9322 11.1626 20.9346 11.1532C20.9372 11.1429 20.9401 11.1327 20.9422 11.1222C20.9444 11.1113 20.9456 11.1003 20.9472 11.0894C20.9485 11.0801 20.9503 11.0711 20.9512 11.0617C20.9532 11.0415 20.9543 11.0213 20.9543 11.001C20.9543 11.0007 20.9543 11.0004 20.9543 11.0001C20.9543 10.9998 20.9543 10.9994 20.9543 10.9991C20.9542 10.9789 20.9532 10.9586 20.9512 10.9384C20.9503 10.929 20.9485 10.92 20.9472 10.9108C20.9456 10.8998 20.9444 10.8888 20.9422 10.8779C20.9401 10.8674 20.9372 10.8572 20.9346 10.8469C20.9322 10.8375 20.9302 10.828 20.9274 10.8187C20.9243 10.8086 20.9205 10.7988 20.9169 10.7889C20.9136 10.7795 20.9105 10.7701 20.9067 10.7609C20.9029 10.7517 20.8984 10.7428 20.8941 10.7338C20.8897 10.7244 20.8855 10.7148 20.8805 10.7055C20.8759 10.6969 20.8706 10.6887 20.8656 10.6803C20.8602 10.6712 20.855 10.662 20.8491 10.6531C20.8428 10.6438 20.8359 10.635 20.8292 10.6261C20.8237 10.6187 20.8186 10.6112 20.8127 10.604C20.7996 10.588 20.7858 10.5727 20.7713 10.5581L15.026 4.81285C14.7819 4.56877 14.3862 4.56877 14.1421 4.81285C13.898 5.05692 13.898 5.45264 14.1421 5.69672L18.8204 10.375L0.88388 10.375C0.53871 10.375 0.258878 10.6548 0.258878 11C0.258878 11.3452 0.53871 11.625 0.88388 11.625L18.8204 11.625L14.1421 16.3033C13.8981 16.5474 13.8981 16.9431 14.1421 17.1872C14.3862 17.4312 14.7819 17.4313 15.026 17.1872L20.7713 11.442C20.7858 11.4274 20.7996 11.4121 20.8127 11.3962C20.8186 11.389 20.8237 11.3814 20.8292 11.374C20.8359 11.3651 20.8428 11.3563 20.8491 11.347Z" fill="currentColor" />
                             </svg>
                         </a>
-                        <div class="cs_service_thumb-in position-relative-in background-filled h-100" data-src="{{ asset('/assets/img/service_2') }}"></div>
+                        <div class="cs_service_thumb-in position-relative-in background-filled h-100" data-src="{{ asset('/assets/img/service_2.png') }}"></div>
                     </div>
                 </div>
             </div>
@@ -315,16 +314,15 @@
                                 </defs>
                             </svg>
                         </div>
-                        <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="services-details.html" class="inline-block">Marketing and Advertising</a></h2>
+                        <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="{{ route('services') }}" class="inline-block">Accounting and Bookkeeping</a></h2>
                     </div>
-                    <p class="cs_mb_24">Services that help businesses create and execute market strategies.</p>
                     <div class="cs_service_thumb position-relative cs_rounded_5">
-                        <a href="services-details.html" class="cs_service_btn d-flex align-items-center justify-content-center rounded-circle position-absolute text-white">
+                        <a href="{{ route('services') }}" class="cs_service_btn d-flex align-items-center justify-content-center rounded-circle position-absolute text-white">
                             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M20.8491 11.347C20.855 11.3381 20.8602 11.3289 20.8656 11.3198C20.8706 11.3114 20.8759 11.3032 20.8805 11.2946C20.8855 11.2853 20.8897 11.2757 20.8942 11.2663C20.8984 11.2573 20.9029 11.2484 20.9067 11.2392C20.9105 11.23 20.9136 11.2206 20.9169 11.2113C20.9205 11.2014 20.9243 11.1916 20.9274 11.1814C20.9302 11.1721 20.9322 11.1626 20.9346 11.1532C20.9372 11.1429 20.9401 11.1327 20.9422 11.1222C20.9444 11.1113 20.9456 11.1003 20.9472 11.0894C20.9485 11.0801 20.9503 11.0711 20.9512 11.0617C20.9532 11.0415 20.9543 11.0213 20.9543 11.001C20.9543 11.0007 20.9543 11.0004 20.9543 11.0001C20.9543 10.9998 20.9543 10.9994 20.9543 10.9991C20.9542 10.9789 20.9532 10.9586 20.9512 10.9384C20.9503 10.929 20.9485 10.92 20.9472 10.9108C20.9456 10.8998 20.9444 10.8888 20.9422 10.8779C20.9401 10.8674 20.9372 10.8572 20.9346 10.8469C20.9322 10.8375 20.9302 10.828 20.9274 10.8187C20.9243 10.8086 20.9205 10.7988 20.9169 10.7889C20.9136 10.7795 20.9105 10.7701 20.9067 10.7609C20.9029 10.7517 20.8984 10.7428 20.8941 10.7338C20.8897 10.7244 20.8855 10.7148 20.8805 10.7055C20.8759 10.6969 20.8706 10.6887 20.8656 10.6803C20.8602 10.6712 20.855 10.662 20.8491 10.6531C20.8428 10.6438 20.8359 10.635 20.8292 10.6261C20.8237 10.6187 20.8186 10.6112 20.8127 10.604C20.7996 10.588 20.7858 10.5727 20.7713 10.5581L15.026 4.81285C14.7819 4.56877 14.3862 4.56877 14.1421 4.81285C13.898 5.05692 13.898 5.45264 14.1421 5.69672L18.8204 10.375L0.88388 10.375C0.53871 10.375 0.258878 10.6548 0.258878 11C0.258878 11.3452 0.53871 11.625 0.88388 11.625L18.8204 11.625L14.1421 16.3033C13.8981 16.5474 13.8981 16.9431 14.1421 17.1872C14.3862 17.4312 14.7819 17.4313 15.026 17.1872L20.7713 11.442C20.7858 11.4274 20.7996 11.4121 20.8127 11.3962C20.8186 11.389 20.8237 11.3814 20.8292 11.374C20.8359 11.3651 20.8428 11.3563 20.8491 11.347Z" fill="currentColor" />
                             </svg>
                         </a>
-                        <div class="cs_service_thumb-in position-relative-in background-filled h-100" data-src="{{ asset('/assets/img/service_3') }}"></div>
+                        <div class="cs_service_thumb-in position-relative-in background-filled h-100" data-src="{{ asset('/assets/img/service_3.png') }}"></div>
                     </div>
                 </div>
             </div>
@@ -338,195 +336,25 @@
                                 <path d="M11.3425 16.0992C11.3425 15.7307 11.0438 15.4321 10.6754 15.4321C10.3069 15.4321 10.0083 15.7307 10.0083 16.0992C10.0102 17.6836 11.1247 19.0489 12.6767 19.368V19.4347C12.6767 19.8031 12.9753 20.1018 13.3438 20.1018C13.7122 20.1018 14.0109 19.8031 14.0109 19.4347V19.368C15.5654 19.0524 16.6826 17.6855 16.6826 16.0992C16.6826 14.5129 15.5655 13.1461 14.0109 12.8304V8.8838C14.8076 9.16547 15.3416 9.9173 15.3451 10.7624C15.3451 11.1308 15.6437 11.4295 16.0122 11.4295C16.3806 11.4295 16.6793 11.1308 16.6793 10.7624C16.6773 9.17796 15.5628 7.81269 14.0109 7.49355V7.42687C14.0109 7.05842 13.7122 6.75977 13.3438 6.75977C12.9753 6.75977 12.6767 7.05842 12.6767 7.42687V7.49355C11.1221 7.80919 10.0049 9.17604 10.0049 10.7624C10.0049 12.3487 11.122 13.7155 12.6767 14.0312V17.9785C11.8797 17.6967 11.3457 16.9445 11.3425 16.0992ZM15.3451 16.0992C15.3416 16.9443 14.8077 17.6961 14.0109 17.9778V14.2206C14.8076 14.5023 15.3416 15.2541 15.3451 16.0992ZM11.3425 10.7624C11.346 9.9173 11.8799 9.16547 12.6767 8.8838V12.641C11.8799 12.3593 11.346 11.6075 11.3425 10.7624Z" fill="white" />
                             </svg>
                         </div>
-                        <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="services-details.html" class="inline-block">Human Resources</a></h2>
+                        <h2 class="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0"><a href="{{ route('services') }}" class="inline-block">Business Advisory and Consultancy</a></h2>
                     </div>
-                    <p class="cs_mb_24">Assistance with HR-related tasks such as recruitment, training, performance.</p>
                     <div class="cs_service_thumb position-relative cs_rounded_5">
-                        <a href="services-details.html" class="cs_service_btn d-flex align-items-center justify-content-center rounded-circle position-absolute text-white">
+                        <a href="{{ route('services') }}" class="cs_service_btn d-flex align-items-center justify-content-center rounded-circle position-absolute text-white">
                             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M20.8491 11.347C20.855 11.3381 20.8602 11.3289 20.8656 11.3198C20.8706 11.3114 20.8759 11.3032 20.8805 11.2946C20.8855 11.2853 20.8897 11.2757 20.8942 11.2663C20.8984 11.2573 20.9029 11.2484 20.9067 11.2392C20.9105 11.23 20.9136 11.2206 20.9169 11.2113C20.9205 11.2014 20.9243 11.1916 20.9274 11.1814C20.9302 11.1721 20.9322 11.1626 20.9346 11.1532C20.9372 11.1429 20.9401 11.1327 20.9422 11.1222C20.9444 11.1113 20.9456 11.1003 20.9472 11.0894C20.9485 11.0801 20.9503 11.0711 20.9512 11.0617C20.9532 11.0415 20.9543 11.0213 20.9543 11.001C20.9543 11.0007 20.9543 11.0004 20.9543 11.0001C20.9543 10.9998 20.9543 10.9994 20.9543 10.9991C20.9542 10.9789 20.9532 10.9586 20.9512 10.9384C20.9503 10.929 20.9485 10.92 20.9472 10.9108C20.9456 10.8998 20.9444 10.8888 20.9422 10.8779C20.9401 10.8674 20.9372 10.8572 20.9346 10.8469C20.9322 10.8375 20.9302 10.828 20.9274 10.8187C20.9243 10.8086 20.9205 10.7988 20.9169 10.7889C20.9136 10.7795 20.9105 10.7701 20.9067 10.7609C20.9029 10.7517 20.8984 10.7428 20.8941 10.7338C20.8897 10.7244 20.8855 10.7148 20.8805 10.7055C20.8759 10.6969 20.8706 10.6887 20.8656 10.6803C20.8602 10.6712 20.855 10.662 20.8491 10.6531C20.8428 10.6438 20.8359 10.635 20.8292 10.6261C20.8237 10.6187 20.8186 10.6112 20.8127 10.604C20.7996 10.588 20.7858 10.5727 20.7713 10.5581L15.026 4.81285C14.7819 4.56877 14.3862 4.56877 14.1421 4.81285C13.898 5.05692 13.898 5.45264 14.1421 5.69672L18.8204 10.375L0.88388 10.375C0.53871 10.375 0.258878 10.6548 0.258878 11C0.258878 11.3452 0.53871 11.625 0.88388 11.625L18.8204 11.625L14.1421 16.3033C13.8981 16.5474 13.8981 16.9431 14.1421 17.1872C14.3862 17.4312 14.7819 17.4313 15.026 17.1872L20.7713 11.442C20.7858 11.4274 20.7996 11.4121 20.8127 11.3962C20.8186 11.389 20.8237 11.3814 20.8292 11.374C20.8359 11.3651 20.8428 11.3563 20.8491 11.347Z" fill="currentColor" />
                             </svg>
                         </a>
-                        <div class="cs_service_thumb-in position-relative-in background-filled h-100" data-src="{{ asset('/assets/img/service_4') }}"></div>
+                        <div class="cs_service_thumb-in position-relative-in background-filled h-100" data-src="{{ asset('/assets/img/service_4.png') }}"></div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="cs_service_1-info  text-center cs_mt_40 d-flex justify-content-center align-items-center flex-wrap">
-            <h4 class="fw-normal m-0">Digital agency services built specifically for your business</h4>
-            <a href="service.html" class="cs_btn cs_style_1 cs_fs_16  overflow-hidden cs_fs_16 cs_rounded_25 cs_pl_20 cs_pr_20 cs_pt_7 cs_pb_7 wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>Find More Services</span></a>
+            <a href="{{ route('services') }}" class="cs_btn cs_style_1 cs_fs_16  overflow-hidden cs_fs_16 cs_rounded_25 cs_pl_20 cs_pr_20 cs_pt_7 cs_pb_7 wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>Find More Services</span></a>
         </div>
     </div>
 </section>
 <!-- End Service Section -->
-
-<!-- Start About Section -->
-<section class="cs_pt_135 cs_pt_lg_75 cs_pb_140 cs_pb_lg_80 position-relative">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 cs_mb_lg_55">
-                <div class="cs_experience cs_style_1 position-relative">
-                    <div class="cs_experience_thumb">
-                        <img src="{{ asset('/assets/img/experience_img') }}" alt="Thumb" class="position-relative cs_zindex_3 cs_rounded_15">
-                        <div class="cs_experience_shape"><img src="{{ asset('/assets/img/experience_shape_1') }}" alt="Shape" class="moving_x"></div>
-                    </div>
-                    <div class="cs_experience_box background-filled text-center bg-white cs_rounded_10 position-absolute bottom-0 end-0 cs_zindex_3 d-flex flex-column justify-content-center align-items-center" data-src="{{ asset('/assets/img/experience_bg') }}">
-                        <img src="{{ asset('/assets/img/experience_icon') }}" alt="Icon" class="cs_mb_5">
-                        <h3 class="text-white cs_fs_60 cs_fs_lg_46 fw-bold lh_1 mb-0 d-flex justify-content-between">
-                            <span data-count-to="40" class="odometer"></span>
-                            <span class="fw-light">+</span>
-                        </h3>
-                        <h2 class="cs_fs_18 fw-normal text-white m-0">Work Experience</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="cs_about cs_style_1">
-                    <div class="cs_section_heading cs_style_1 d-flex align-items-center cs_mb_15">
-                        <div class="cs_section_heading_in">
-                            <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">About Us</h3>
-                            <h2 class="cs_fs_48 cs_fs_lg_36 cs_mb_20">Get Ready for Success with <span class="text-accent">Bizmax</span> Your Path to Growth.</h2>
-                            <p class="m-0">Providing legal advice, contract drafting, compliance assistance, intellectual property protection, and other legal support for businesses. Creating visual content, such as logos, brochures, infographics, and other branding materials.</p>
-                        </div>
-                    </div>
-                    <div class="cs_progressbar cs_style_1 cs_mb_20">
-                        <div class="cs_progressbar_heading d-flex justify-content-between align-items-center cs_mb_8">
-                            <h3 class="fw-medium m-0 cs_fs_18">Web development</h3>
-                            <p class="cs_fs_14 cs_lh_base m-0">90%</p>
-                        </div>
-                        <div class="cs_progress cs_rounded_8 overflow-hidden" data-progress="90">
-                            <div class="cs_progress_in bg-accent cs_rounded_8 h-100 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s"></div>
-                        </div>
-                    </div><!-- .cs_progressbar -->
-                    <div class="row cs_mb_15">
-                        <div class="col-lg-6">
-                            <div class="cs_about-icon-box position-relative cs_mb_25">
-                                <span class="position-absolute cs_height_20 cs_width_20 top-0 start-0 cs_mt_5 bg-accent text-white cs_fs_10 d-flex align-items-center justify-content-center cs_rounded_30"><i class="fa-solid fa-angles-right"></i></span>
-                                <h3 class="cs_fs_16 cs_pl_35 cs_mb_12 cs_lh_lg">Accounting and Bookkeeping</h3>
-                                <p class="m-0">Services related to financial record-keeping, bookkeeping.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="cs_about-icon-box position-relative cs_mb_25">
-                                <span class="position-absolute cs_height_20 cs_width_20 top-0 start-0 cs_mt_5 bg-accent text-white cs_fs_10 d-flex align-items-center justify-content-center cs_rounded_30"><i class="fa-solid fa-angles-right"></i></span>
-                                <h3 class="cs_fs_16 cs_pl_35 cs_mb_12 cs_lh_lg">Human Resources (HR) Consulting</h3>
-                                <p class="m-0">Assistance with HR-related tasks such as recruitment.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center cs_row_gap_20 cs_column_gap_30 cs_column_gap_lg_20 flex-wrap">
-                        <a href="{{ route('contact') }}" class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden"><span>Get A Quote</span></a>
-                        <a href="https://www.youtube.com/embed/VStvZjykQ00" class="cs_video_open d-flex align-items-center">
-                            <span class="cs_player_btn cs_width_45 cs_height_45 rounded-circle d-flex align-items-center justify-content-center text-white bg-primary position-relative cs_pl_5">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.71401 16C1.61636 16 1.51868 15.9748 1.43054 15.9246C1.25251 15.8231 1.14258 15.6339 1.14258 15.4285V0.570579C1.14258 0.365193 1.25251 0.176009 1.43054 0.0744495C1.61022 -0.026561 1.82844 -0.0243301 2.00475 0.0783627L14.5762 7.50735C14.7503 7.6106 14.8569 7.79755 14.8569 7.99957C14.8569 8.20159 14.7503 8.38855 14.5762 8.49179L2.00475 15.9207C1.9149 15.9732 1.81443 16 1.71401 16ZM2.28544 1.57172V14.4274L13.1621 7.99957L2.28544 1.57172Z" fill="white" />
-                                </svg>
-                            </span>
-                            <span class="cs_ml_15">Watch the video</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="cs_section_shape-1 position-absolute semi_rotate">
-        <svg width="182" height="177" viewBox="0 0 182 177" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M94.4478 96.1115C106.99 105.211 120.6 111.159 132.748 112.86C132.823 112.871 132.894 112.876 132.967 112.886L150.387 27.5688C151.002 24.552 147.98 22.0838 145.148 23.2887L63.8438 57.8735C67.5196 70.1011 78.6592 84.6548 94.4478 96.1115Z" fill="#888888" fill-opacity="0.2" />
-            <path d="M128.155 120.487C115.612 118.057 102.053 111.863 89.5833 102.815C72.3806 90.3334 60.5954 75.0018 56.1891 61.1295L14.8513 78.7143C11.6218 80.0876 11.7968 84.724 15.1212 85.8483L74.9037 106.09C78.4203 107.281 81.3895 109.706 83.2572 112.915L115.015 167.46C116.78 170.492 121.358 169.74 122.061 166.301L131.308 121.013C130.265 120.863 129.215 120.692 128.155 120.487Z" fill="#888888" fill-opacity="0.2" />
-            <path d="M129.41 114.012C116.866 111.583 103.307 105.387 90.8381 96.3405C61.4995 75.0532 47.8833 45.4701 59.84 28.9897C71.7975 12.512 104.146 16.278 133.483 37.5651C143.082 44.5285 151.409 52.7615 157.564 61.3736C158.895 63.2352 158.464 65.8208 156.603 67.1511C154.742 68.4799 152.156 68.0495 150.827 66.1896C145.184 58.2942 137.505 50.7138 128.621 44.2672C103.894 26.326 75.466 21.5559 66.5447 33.8531C57.6235 46.1491 70.9766 71.6938 95.7041 89.6352C108.246 98.7348 121.848 104.686 134.005 106.383C145.234 107.955 153.677 105.705 157.78 100.049C162.059 94.1524 160.568 86.183 158.563 80.5345C157.799 78.3788 158.926 76.0123 161.081 75.2472C163.236 74.4823 165.604 75.6089 166.369 77.7657C170.142 88.3972 169.474 98.04 164.484 104.915C158.497 113.168 147.265 116.603 132.859 114.587C131.719 114.43 130.568 114.237 129.41 114.012Z" fill="#888888" fill-opacity="0.2" />
-        </svg>
-    </div>
-</section>
-<!-- End About Section -->
-
-<!-- Start Latest Project -->
-<section class="bg-gray cs_pt_135">
-    <div class="cs_project_slider">
-        <div class="container">
-            <div class="cs_section_heading cs_style_1 d-flex align-items-center cs_mb_60 cs_mb_lg_40 cs_column_gap_15 cs_row_gap_15 cs_mb_60 cs_mb_lg_40">
-                <div class="cs_section_heading_in">
-                    <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">Our Latest Project</h3>
-                    <h2 class="cs_fs_48 cs_fs_lg_36 m-0">Take a look our <br>Completed Projects</h2>
-                </div>
-                <div class="cs_section_heading_right">
-                    <div class="d-flex cs_column_gap_15 justify-content-lg-end justify-content-start">
-                        <div class="cs_slider_prev filter cs_height_45 cs_width_45 bg-white rounded-circle d-flex align-items-center justify-content-center bg-accent-hover cs_transition_4">
-                            <svg width="20" height="8" viewBox="0 0 20 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0.461063 4.4077H19.538C19.7649 4.4077 19.9482 4.22437 19.9482 3.99745C19.9482 3.77052 19.7649 3.58719 19.538 3.58719H1.45209L3.94183 1.09745C4.10209 0.937189 4.10209 0.676933 3.94183 0.516677C3.78158 0.35642 3.52132 0.35642 3.36106 0.516677L0.170038 3.7077C0.0520878 3.82565 0.0174732 4.00129 0.0815754 4.15514C0.145678 4.3077 0.295677 4.4077 0.461063 4.4077Z" fill="black" />
-                                <path d="M3.65549 7.60253C3.76062 7.60253 3.86575 7.56278 3.94524 7.48202C4.10549 7.32176 4.10549 7.0615 3.94524 6.90125L0.750365 3.70637C0.590108 3.54612 0.329853 3.54612 0.169597 3.70637C0.00934029 3.86663 0.00934029 4.12689 0.169597 4.28714L3.36447 7.48202C3.44524 7.56278 3.55036 7.60253 3.65549 7.60253Z" fill="black" />
-                            </svg>
-                        </div>
-                        <div class="cs_slider_next filter cs_height_45 cs_width_45 bg-white rounded-circle d-flex align-items-center justify-content-center bg-accent-hover cs_transition_4">
-                            <svg width="20" height="8" viewBox="0 0 20 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M19.5389 4.4077H0.462014C0.235091 4.4077 0.0517578 4.22437 0.0517578 3.99745C0.0517578 3.77052 0.235091 3.58719 0.462014 3.58719H18.5479L16.0582 1.09745C15.8979 0.937189 15.8979 0.676933 16.0582 0.516677C16.2184 0.35642 16.4787 0.35642 16.6389 0.516677L19.83 3.7077C19.9479 3.82565 19.9825 4.00129 19.9184 4.15514C19.8543 4.3077 19.7043 4.4077 19.5389 4.4077Z" fill="#18191D" />
-                                <path d="M16.3445 7.60253C16.2394 7.60253 16.1342 7.56278 16.0548 7.48202C15.8945 7.32176 15.8945 7.0615 16.0548 6.90125L19.2496 3.70637C19.4099 3.54612 19.6701 3.54612 19.8304 3.70637C19.9907 3.86663 19.9907 4.12689 19.8304 4.28714L16.6355 7.48202C16.5548 7.56278 16.4496 7.60253 16.3445 7.60253Z" fill="#18191D" />
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="cs_slider_activate">
-            <div class="cs_slide">
-                <div class="cs_portfolio cs_style_1 position-relative overflow-hidden">
-                    <a href="project-details.html" class="cs_portfolio_overlay cs_transition_4 position-absolute h-100 w-100 start-0 top-0 cs_zindex_1 d-block"></a>
-                    <div class="cs_portfolio_thumb d-block h-100 w-100 background-filled cs_transition_6" data-src="{{ asset('/assets/img/portfolio_1') }}"></div>
-                    <h3 class="cs_portfolio_title m-0 cs_fs_26 text-white cs_pl_50 cs_pb_45 cs_mr_50 position-relative cs_zindex_4 position-absolute start-0 bottom-0 w-100 cs_transition_4"><a href="project-details.html">Marketing Webdesign</a></h3>
-                </div>
-            </div>
-            <div class="cs_slide">
-                <div class="cs_portfolio cs_style_1 position-relative overflow-hidden">
-                    <a href="project-details.html" class="cs_portfolio_overlay cs_transition_4 position-absolute h-100 w-100 start-0 top-0 cs_zindex_1 d-block"></a>
-                    <div class="cs_portfolio_thumb d-block h-100 w-100 background-filled cs_transition_6" data-src="{{ asset('/assets/img/portfolio_2') }}"></div>
-                    <h3 class="cs_portfolio_title m-0 cs_fs_26 text-white cs_pl_50 cs_pb_45 cs_mr_50 position-relative cs_zindex_4 position-absolute start-0 bottom-0 w-100 cs_transition_4"><a href="project-details.html">Marketing Webdesign</a></h3>
-                </div>
-            </div>
-            <div class="cs_slide">
-                <div class="cs_portfolio cs_style_1 position-relative overflow-hidden">
-                    <a href="project-details.html" class="cs_portfolio_overlay cs_transition_4 position-absolute h-100 w-100 start-0 top-0 cs_zindex_1 d-block"></a>
-                    <div class="cs_portfolio_thumb d-block h-100 w-100 background-filled cs_transition_6" data-src="{{ asset('/assets/img/portfolio_3') }}"></div>
-                    <h3 class="cs_portfolio_title m-0 cs_fs_26 text-white cs_pl_50 cs_pb_45 cs_mr_50 position-relative cs_zindex_4 position-absolute start-0 bottom-0 w-100 cs_transition_4"><a href="project-details.html">Marketing Webdesign</a></h3>
-                </div>
-            </div>
-            <div class="cs_slide">
-                <div class="cs_portfolio cs_style_1 position-relative overflow-hidden">
-                    <a href="project-details.html" class="cs_portfolio_overlay cs_transition_4 position-absolute h-100 w-100 start-0 top-0 cs_zindex_1 d-block"></a>
-                    <div class="cs_portfolio_thumb d-block h-100 w-100 background-filled cs_transition_6" data-src="{{ asset('/assets/img/portfolio_4') }}"></div>
-                    <h3 class="cs_portfolio_title m-0 cs_fs_26 text-white cs_pl_50 cs_pb_45 cs_mr_50 position-relative cs_zindex_4 position-absolute start-0 bottom-0 w-100 cs_transition_4"><a href="project-details.html">Marketing Webdesign</a></h3>
-                </div>
-            </div>
-            <div class="cs_slide">
-                <div class="cs_portfolio cs_style_1 position-relative overflow-hidden">
-                    <a href="project-details.html" class="cs_portfolio_overlay cs_transition_4 position-absolute h-100 w-100 start-0 top-0 cs_zindex_1 d-block"></a>
-                    <div class="cs_portfolio_thumb d-block h-100 w-100 background-filled cs_transition_6" data-src="{{ asset('/assets/img/portfolio_1') }}"></div>
-                    <h3 class="cs_portfolio_title m-0 cs_fs_26 text-white cs_pl_50 cs_pb_45 cs_mr_50 position-relative cs_zindex_4 position-absolute start-0 bottom-0 w-100 cs_transition_4"><a href="project-details.html">Marketing Webdesign</a></h3>
-                </div>
-            </div>
-            <div class="cs_slide">
-                <div class="cs_portfolio cs_style_1 position-relative overflow-hidden">
-                    <a href="project-details.html" class="cs_portfolio_overlay cs_transition_4 position-absolute h-100 w-100 start-0 top-0 cs_zindex_1 d-block"></a>
-                    <div class="cs_portfolio_thumb d-block h-100 w-100 background-filled cs_transition_6" data-src="{{ asset('/assets/img/portfolio_2') }}"></div>
-                    <h3 class="cs_portfolio_title m-0 cs_fs_26 text-white cs_pl_50 cs_pb_45 cs_mr_50 position-relative cs_zindex_4 position-absolute start-0 bottom-0 w-100 cs_transition_4"><a href="project-details.html">Marketing Webdesign</a></h3>
-                </div>
-            </div>
-            <div class="cs_slide">
-                <div class="cs_portfolio cs_style_1 position-relative overflow-hidden">
-                    <a href="project-details.html" class="cs_portfolio_overlay cs_transition_4 position-absolute h-100 w-100 start-0 top-0 cs_zindex_1 d-block"></a>
-                    <div class="cs_portfolio_thumb d-block h-100 w-100 background-filled cs_transition_6" data-src="{{ asset('/assets/img/portfolio_3') }}"></div>
-                    <h3 class="cs_portfolio_title m-0 cs_fs_26 text-white cs_pl_50 cs_pb_45 cs_mr_50 position-relative cs_zindex_4 position-absolute start-0 bottom-0 w-100 cs_transition_4"><a href="project-details.html">Marketing Webdesign</a></h3>
-                </div>
-            </div>
-            <div class="cs_slide">
-                <div class="cs_portfolio cs_style_1 position-relative overflow-hidden">
-                    <a href="project-details.html" class="cs_portfolio_overlay cs_transition_4 position-absolute h-100 w-100 start-0 top-0 cs_zindex_1 d-block"></a>
-                    <div class="cs_portfolio_thumb d-block h-100 w-100 background-filled cs_transition_6" data-src="{{ asset('/assets/img/portfolio_4') }}"></div>
-                    <h3 class="cs_portfolio_title m-0 cs_fs_26 text-white cs_pl_50 cs_pb_45 cs_mr_50 position-relative cs_zindex_4 position-absolute start-0 bottom-0 w-100 cs_transition_4"><a href="project-details.html">Marketing Webdesign</a></h3>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Latest Project -->
 
 <!-- Start Why Choose Us -->
 <section class="position-relative cs_iconbox_2_wrap cs_pt_135 cs_pt_lg_75 cs_pb_100 cs_pb_lg_40 overflow-hidden">
@@ -537,8 +365,11 @@
                     <div class="cs_section_heading cs_style_1 d-flex align-items-center cs_mb_60 cs_mb_lg_40 cs_column_gap_15 cs_row_gap_15">
                         <div class="cs_section_heading_in">
                             <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">Why Choose Us</h3>
-                            <h2 class="cs_fs_48 cs_fs_lg_36 cs_mb_20 text-white">Developing a <span class="text-accent">design that <br>is easy</span> to use and <br>navigate</h2>
-                            <p class="text-white m-0">Providing legal advice, contract drafting, compliance assistance, intellectual <br> property protection, and other legal support for businesses. Creating visual <br> content, such as logos, brochures, infographics.</p>
+                            <h2 class="cs_fs_48 cs_fs_lg_36 cs_mb_20 text-white">Our team of professionals brings <span class="text-accent">extensive knowledge and experience</span> in various aspects of business setup and management.</h2>
+                            <p class="text-white m-0">Our strong network of partners and collaborators across Europe, the US, and the UK ensures seamless cross-border operations.</p>
+                            <p class="text-white m-0">We understand that each business is unique, and we provide customized solutions to meet your specific needs.</p>
+                            <p class="text-white m-0">We are dedicated to delivering high-quality services that exceed your expectations.</p>
+                            <p class="text-white m-0">Based in UAE, we offer strategic advantages for businesses looking to access markets in the Middle East, Asia, Europe and beyond.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -559,7 +390,7 @@
                                     </svg>
                                 </div>
                                 <div>
-                                    <h2 class="text-white m-0 cs_fs_20 cs_fs_lg_18 cs_lh_base">Digital agency services</h2>
+                                    <h2 class="text-white m-0 cs_fs_20 cs_fs_lg_18 cs_lh_base">Expertise</h2>
                                 </div>
                             </div>
                         </div>
@@ -578,7 +409,7 @@
                                     </svg>
                                 </div>
                                 <div>
-                                    <h2 class="text-white m-0 cs_fs_20 cs_fs_lg_18 cs_lh_base">Creative digital agency</h2>
+                                    <h2 class="text-white m-0 cs_fs_20 cs_fs_lg_18 cs_lh_base">Tailored Solutions</h2>
                                 </div>
                             </div>
                         </div>
@@ -605,7 +436,7 @@
                                     </svg>
                                 </div>
                                 <div>
-                                    <h2 class="text-white m-0 cs_fs_20 cs_fs_lg_18 cs_lh_base">Super expert developers</h2>
+                                    <h2 class="text-white m-0 cs_fs_20 cs_fs_lg_18 cs_lh_base">Commitment to Excellence</h2>
                                 </div>
                             </div>
                         </div>
@@ -618,7 +449,20 @@
                                     </svg>
                                 </div>
                                 <div>
-                                    <h2 class="text-white m-0 cs_fs_20 cs_fs_lg_18 cs_lh_base">Creating a user friendly design</h2>
+                                    <h2 class="text-white m-0 cs_fs_20 cs_fs_lg_18 cs_lh_base">Strategic Location</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="cs_iconbox cs_style_1 d-flex align-items-center cs_mb_40">
+                                <div class="cs_iconbox_icon d-flex align-items-center justify-content-center cs_height_70 cs_width_70 cs_rounded_10 flex-none cs_mr_20 bg-accent cs_transition_4 wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                    <svg width="34" height="40" viewBox="0 0 34 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16.2012 35.1591V36.3801C16.2012 36.8799 16.6064 37.2851 17.1061 37.2851C17.6059 37.2851 18.0111 36.8799 18.0111 36.3801V35.1591C18.0111 34.6593 17.6059 34.2542 17.1061 34.2542C16.6064 34.2542 16.2012 34.6593 16.2012 35.1591Z" fill="white" />
+                                        <path d="M31.1066 4.58742H30.5865V3.17611C30.5865 1.4248 29.1617 0 27.4104 0H4.75042C2.99911 0 1.57431 1.4248 1.57431 3.17611V4.58751H1.10517C0.605444 4.58751 0.200195 4.99267 0.200195 5.49249C0.200195 5.99231 0.605444 6.39747 1.10517 6.39747H1.57431V7.80878C1.57431 9.56009 2.99911 10.9849 4.75042 10.9849H27.4105C29.1618 10.9849 30.5866 9.56009 30.5866 7.80878V6.39738H31.1067C31.5044 6.39738 31.9902 6.81819 31.9902 7.30932V11.7605C31.9902 12.3235 31.5037 12.9028 30.9492 13.0001L18.7389 15.1427C17.3157 15.3925 16.2008 16.72 16.2008 18.165V21.1112H13.6185C13.3526 21.1112 13.1 21.2281 12.9282 21.431C12.7562 21.6338 12.6821 21.9021 12.7257 22.1644L13.4967 26.8063V37.3982C13.4967 38.8329 14.6638 40 16.0985 40H18.1132C19.5479 40 20.715 38.8329 20.715 37.3982V26.8062L21.486 22.1643C21.5295 21.902 21.4555 21.6338 21.2835 21.431C21.1117 21.2281 20.8592 21.1111 20.5932 21.1111H18.011V18.1649C18.011 17.6019 18.4974 17.0226 19.052 16.9253L31.2622 14.7828C32.6854 14.533 33.8003 13.2055 33.8003 11.7605V7.30932C33.8 5.85937 32.5414 4.58742 31.1066 4.58742ZM28.7766 7.80878C28.7766 8.56208 28.1638 9.17493 27.4104 9.17493H4.75042C3.99712 9.17493 3.38427 8.56208 3.38427 7.80878V3.17611C3.38427 2.42281 3.99703 1.80995 4.75042 1.80995H27.4105C28.1638 1.80995 28.7767 2.42281 28.7767 3.17611V7.80878H28.7766ZM18.9171 26.5834C18.909 26.6325 18.9049 26.682 18.9049 26.7317V37.3982C18.9049 37.8348 18.5497 38.19 18.113 38.19H16.0983C15.6616 38.19 15.3064 37.8348 15.3064 37.3982V27.6367H16.19C16.6897 27.6367 17.0949 27.2315 17.0949 26.7317C17.0949 26.2319 16.6897 25.8267 16.19 25.8267H15.1686L14.6861 22.9212H19.5254L18.9171 26.5834Z" fill="white" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h2 class="text-white m-0 cs_fs_20 cs_fs_lg_18 cs_lh_base">Global Network</h2>
                                 </div>
                             </div>
                         </div>
@@ -628,8 +472,8 @@
             <div class="col-xl-6"></div>
         </div>
     </div>
-    <div class="cs_iconbox_left-img position-absolute bottom-0 start-0 h-100 background-filled" data-src="{{ asset('/assets/img/why_choose_us_left_img') }}"></div>
-    <div class="cs_iconbox_right-img position-absolute cs_zindex_1 bottom-0 end-0 background-filled" data-src="{{ asset('/assets/img/why_choose_us_right_img') }}"></div>
+    <div class="cs_iconbox_left-img position-absolute bottom-0 start-0 h-100 background-filled" data-src="{{ asset('/assets/img/why_choose_us_left_img.jpeg') }}"></div>
+    <div class="cs_iconbox_right-img position-absolute cs_zindex_1 bottom-0 end-0 background-filled" data-src="{{ asset('/assets/img/why_choose_us_right_img.png') }}"></div>
     <div class="cs_iconbox_logo position-absolute semi_rotate">
         <svg width="191" height="197" viewBox="0 0 191 197" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M100.397 107.26C113.305 117.648 127.237 124.564 139.602 126.736C139.678 126.749 139.75 126.756 139.825 126.77L155.856 32.5327C156.421 29.2004 153.306 26.3917 150.454 27.6622L68.5886 64.126C72.5569 77.7763 84.1472 94.1815 100.397 107.26Z" fill="#888888" fill-opacity="0.2" />
@@ -640,150 +484,8 @@
 </section>
 <!-- End Why Choose Us -->
 
-<!-- Start Testimonial Section -->
-<section class="background-filled cs_pt_140 cs_pt_lg_75 cs_pb_135 cs_pb_lg_75" data-src="{{ asset('/assets/img/testimonial_bg') }}">
-    <div class="cs_testimonial_slider cs_gap_30">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 cs_mb_lg_40">
-                    <div class="cs_section_heading cs_style_1 d-flex align-items-center cs_mb_30">
-                        <div class="cs_section_heading_in">
-                            <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">Testimonial</h3>
-                            <h2 class="cs_fs_48 cs_fs_lg_36 cs_mb_20">What They’re Saying?</h2>
-                            <p class="m-0">Providing legal advice, contract drafting, compliance assistance, intellectual property protection, and other legal support for businesses.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex cs_column_gap_15">
-                        <div class="cs_slider_prev filter cs_height_45 cs_width_45 bg-white rounded-circle d-flex align-items-center justify-content-center bg-accent-hover cs_transition_4">
-                            <svg width="20" height="8" viewBox="0 0 20 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0.461063 4.4077H19.538C19.7649 4.4077 19.9482 4.22437 19.9482 3.99745C19.9482 3.77052 19.7649 3.58719 19.538 3.58719H1.45209L3.94183 1.09745C4.10209 0.937189 4.10209 0.676933 3.94183 0.516677C3.78158 0.35642 3.52132 0.35642 3.36106 0.516677L0.170038 3.7077C0.0520878 3.82565 0.0174732 4.00129 0.0815754 4.15514C0.145678 4.3077 0.295677 4.4077 0.461063 4.4077Z" fill="black" />
-                                <path d="M3.65549 7.60253C3.76062 7.60253 3.86575 7.56278 3.94524 7.48202C4.10549 7.32176 4.10549 7.0615 3.94524 6.90125L0.750365 3.70637C0.590108 3.54612 0.329853 3.54612 0.169597 3.70637C0.00934029 3.86663 0.00934029 4.12689 0.169597 4.28714L3.36447 7.48202C3.44524 7.56278 3.55036 7.60253 3.65549 7.60253Z" fill="black" />
-                            </svg>
-                        </div>
-                        <div class="cs_slider_next filter cs_height_45 cs_width_45 bg-white rounded-circle d-flex align-items-center justify-content-center bg-accent-hover cs_transition_4">
-                            <svg width="20" height="8" viewBox="0 0 20 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M19.5389 4.4077H0.462014C0.235091 4.4077 0.0517578 4.22437 0.0517578 3.99745C0.0517578 3.77052 0.235091 3.58719 0.462014 3.58719H18.5479L16.0582 1.09745C15.8979 0.937189 15.8979 0.676933 16.0582 0.516677C16.2184 0.35642 16.4787 0.35642 16.6389 0.516677L19.83 3.7077C19.9479 3.82565 19.9825 4.00129 19.9184 4.15514C19.8543 4.3077 19.7043 4.4077 19.5389 4.4077Z" fill="#18191D" />
-                                <path d="M16.3445 7.60253C16.2394 7.60253 16.1342 7.56278 16.0548 7.48202C15.8945 7.32176 15.8945 7.0615 16.0548 6.90125L19.2496 3.70637C19.4099 3.54612 19.6701 3.54612 19.8304 3.70637C19.9907 3.86663 19.9907 4.12689 19.8304 4.28714L16.6355 7.48202C16.5548 7.56278 16.4496 7.60253 16.3445 7.60253Z" fill="#18191D" />
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="cs_slider_activate">
-                        <div class="cs_slide">
-                            <div class="cs_testimonial cs_style_1 cs_pt_20">
-                                <div class="cs_testimonial_in bg-white shadow-sm cs_pl_30 cs_pr_30 cs_pb_27 cs_pt_1 cs_rounded_10">
-                                    <div class="cs_testimonial_img cs_mb_15"><img src="{{ asset('/assets/img/avatar_1') }}" alt="Avatar" class="cs_height_75 cs_width_75 rounded-circle"></div>
-                                    <div class="cs_rating text-accent cs_mb_15" data-rating="4.5">
-                                        <div class="cs_rating_percentage"></div>
-                                    </div>
-                                    <p class="cs_mb_14">I've been using [business name] for the past year and I'm so glad I did. Their products and services are top-notch and their customer service is amazing. I would highly recommend them to anyone</p>
-                                    <h3 class="cs_fs_18 cs_mb_2 cs_lh_base">Darlene Robertson</h3>
-                                    <p class="m-0 cs_fs_14 cs_lh_base">Web design</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cs_slide">
-                            <div class="cs_testimonial cs_style_1 cs_pt_20">
-                                <div class="cs_testimonial_in bg-white shadow-sm cs_pl_30 cs_pr_30 cs_pb_27 cs_pt_1 cs_rounded_10">
-                                    <div class="cs_testimonial_img cs_mb_15"><img src="{{ asset('/assets/img/avatar_2') }}" alt="Avatar" class="cs_height_75 cs_width_75 rounded-circle"></div>
-                                    <div class="cs_rating text-accent cs_mb_15" data-rating="5">
-                                        <div class="cs_rating_percentage"></div>
-                                    </div>
-                                    <p class="cs_mb_14">I've been using [business name] for the past year and I'm so glad I did. Their products and services are top-notch and their customer service is amazing. I would highly recommend them to anyone</p>
-                                    <h3 class="cs_fs_18 cs_mb_2 cs_lh_base">Carol McCarthy</h3>
-                                    <p class="m-0 cs_fs_14 cs_lh_base">Product manager</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cs_slide">
-                            <div class="cs_testimonial cs_style_1 cs_pt_20">
-                                <div class="cs_testimonial_in bg-white shadow-sm cs_pl_30 cs_pr_30 cs_pb_27 cs_pt_1 cs_rounded_10">
-                                    <div class="cs_testimonial_img cs_mb_15"><img src="{{ asset('/assets/img/avatar_3') }}" alt="Avatar" class="cs_height_75 cs_width_75 rounded-circle"></div>
-                                    <div class="cs_rating text-accent cs_mb_15" data-rating="4">
-                                        <div class="cs_rating_percentage"></div>
-                                    </div>
-                                    <p class="cs_mb_14">I've been using [business name] for the past year and I'm so glad I did. Their products and services are top-notch and their customer service is amazing. I would highly recommend them to anyone</p>
-                                    <h3 class="cs_fs_18 cs_mb_2 cs_lh_base">Peter Johnson</h3>
-                                    <p class="m-0 cs_fs_14 cs_lh_base">Web developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cs_slide">
-                            <div class="cs_testimonial cs_style_1 cs_pt_20">
-                                <div class="cs_testimonial_in bg-white shadow-sm cs_pl_30 cs_pr_30 cs_pb_27 cs_pt_1 cs_rounded_10">
-                                    <div class="cs_testimonial_img cs_mb_15"><img src="{{ asset('/assets/img/avatar_4') }}" alt="Avatar" class="cs_height_75 cs_width_75 rounded-circle"></div>
-                                    <div class="cs_rating text-accent cs_mb_15" data-rating="5">
-                                        <div class="cs_rating_percentage"></div>
-                                    </div>
-                                    <p class="cs_mb_14">I've been using [business name] for the past year and I'm so glad I did. Their products and services are top-notch and their customer service is amazing. I would highly recommend them to anyone</p>
-                                    <h3 class="cs_fs_18 cs_mb_2 cs_lh_base">Max Lawrence</h3>
-                                    <p class="m-0 cs_fs_14 cs_lh_base">Digital marketing</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cs_slide">
-                            <div class="cs_testimonial cs_style_1 cs_pt_20">
-                                <div class="cs_testimonial_in bg-white shadow-sm cs_pl_30 cs_pr_30 cs_pb_27 cs_pt_1 cs_rounded_10">
-                                    <div class="cs_testimonial_img cs_mb_15"><img src="{{ asset('/assets/img/avatar_1') }}" alt="Avatar" class="cs_height_75 cs_width_75 rounded-circle"></div>
-                                    <div class="cs_rating text-accent cs_mb_15" data-rating="4.5">
-                                        <div class="cs_rating_percentage"></div>
-                                    </div>
-                                    <p class="cs_mb_14">I've been using [business name] for the past year and I'm so glad I did. Their products and services are top-notch and their customer service is amazing. I would highly recommend them to anyone</p>
-                                    <h3 class="cs_fs_18 cs_mb_2 cs_lh_base">Darlene Robertson</h3>
-                                    <p class="m-0 cs_fs_14 cs_lh_base">Web design</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cs_slide">
-                            <div class="cs_testimonial cs_style_1 cs_pt_20">
-                                <div class="cs_testimonial_in bg-white shadow-sm cs_pl_30 cs_pr_30 cs_pb_27 cs_pt_1 cs_rounded_10">
-                                    <div class="cs_testimonial_img cs_mb_15"><img src="{{ asset('/assets/img/avatar_2') }}" alt="Avatar" class="cs_height_75 cs_width_75 rounded-circle"></div>
-                                    <div class="cs_rating text-accent cs_mb_15" data-rating="5">
-                                        <div class="cs_rating_percentage"></div>
-                                    </div>
-                                    <p class="cs_mb_14">I've been using [business name] for the past year and I'm so glad I did. Their products and services are top-notch and their customer service is amazing. I would highly recommend them to anyone</p>
-                                    <h3 class="cs_fs_18 cs_mb_2 cs_lh_base">Carol McCarthy</h3>
-                                    <p class="m-0 cs_fs_14 cs_lh_base">Product manager</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cs_slide">
-                            <div class="cs_testimonial cs_style_1 cs_pt_20">
-                                <div class="cs_testimonial_in bg-white shadow-sm cs_pl_30 cs_pr_30 cs_pb_27 cs_pt_1 cs_rounded_10">
-                                    <div class="cs_testimonial_img cs_mb_15"><img src="{{ asset('/assets/img/avatar_3') }}" alt="Avatar" class="cs_height_75 cs_width_75 rounded-circle"></div>
-                                    <div class="cs_rating text-accent cs_mb_15" data-rating="4">
-                                        <div class="cs_rating_percentage"></div>
-                                    </div>
-                                    <p class="cs_mb_14">I've been using [business name] for the past year and I'm so glad I did. Their products and services are top-notch and their customer service is amazing. I would highly recommend them to anyone</p>
-                                    <h3 class="cs_fs_18 cs_mb_2 cs_lh_base">Peter Johnson</h3>
-                                    <p class="m-0 cs_fs_14 cs_lh_base">Web developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cs_slide">
-                            <div class="cs_testimonial cs_style_1 cs_pt_20">
-                                <div class="cs_testimonial_in bg-white shadow-sm cs_pl_30 cs_pr_30 cs_pb_27 cs_pt_1 cs_rounded_10">
-                                    <div class="cs_testimonial_img cs_mb_15"><img src="{{ asset('/assets/img/avatar_4') }}" alt="Avatar" class="cs_height_75 cs_width_75 rounded-circle"></div>
-                                    <div class="cs_rating text-accent cs_mb_15" data-rating="5">
-                                        <div class="cs_rating_percentage"></div>
-                                    </div>
-                                    <p class="cs_mb_14">I've been using [business name] for the past year and I'm so glad I did. Their products and services are top-notch and their customer service is amazing. I would highly recommend them to anyone</p>
-                                    <h3 class="cs_fs_18 cs_mb_2 cs_lh_base">Max Lawrence</h3>
-                                    <p class="m-0 cs_fs_14 cs_lh_base">Digital marketing</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Testimonial Section -->
-
 <!-- Start Team Section -->
-<section class="cs_pb_115 cs_pb_lg_55">
+<section class="cs_pb_115 cs_pb_lg_55 mt-5">
     <div class="container">
         <div class="cs_section_heading cs_style_1 d-flex align-items-center text-center cs_mb_60 cs_mb_lg_40">
             <div class="cs_section_heading_in">
@@ -795,7 +497,7 @@
             <div class="col-lg-4">
                 <div class="cs_team cs_style_1 text-center cs_mb_25 overflow-hidden cs_rounded_50">
                     <div class="cs_team_member position-relative cs_rounded_50">
-                        <img class="w-100 cs_rounded_50" src="{{ asset('/assets/img/team_member_1') }}" alt="Member">
+                        <img class="w-100 cs_rounded_50" src="{{ asset('/assets/img/team_member_1.jpeg') }}" alt="Member">
                         <div class="cs_social_btns d-flex flex-wrap cs_column_gap_15 cs_row_gap_15 cs_transition_5 cs_fs_20 cs_fs_lg_18 position-absolute">
                             <a href="#" class="d-flex align-items-center justify-content-center cs_height_45 cs_width_45 border-0 text-white rounded-circle"><i class="fa-brands fa-facebook-f"></i></a>
                             <a href="#" class="d-flex align-items-center justify-content-center cs_height_45 cs_width_45 border-0 text-white rounded-circle"><i class="fa-brands fa-twitter"></i></a>
@@ -811,7 +513,7 @@
             <div class="col-lg-4">
                 <div class="cs_team cs_style_1 text-center cs_mb_25 overflow-hidden cs_rounded_50">
                     <div class="cs_team_member position-relative cs_rounded_50">
-                        <img class="w-100 cs_rounded_50" src="{{ asset('/assets/img/team_member_2') }}" alt="Member">
+                        <img class="w-100 cs_rounded_50" src="{{ asset('/assets/img/team_member_2.jpeg') }}" alt="Member">
                         <div class="cs_social_btns d-flex flex-wrap cs_column_gap_15 cs_row_gap_15 cs_transition_5 cs_fs_20 cs_fs_lg_18 position-absolute">
                             <a href="#" class="d-flex align-items-center justify-content-center cs_height_45 cs_width_45 border-0 text-white rounded-circle"><i class="fa-brands fa-facebook-f"></i></a>
                             <a href="#" class="d-flex align-items-center justify-content-center cs_height_45 cs_width_45 border-0 text-white rounded-circle"><i class="fa-brands fa-twitter"></i></a>
@@ -827,7 +529,7 @@
             <div class="col-lg-4">
                 <div class="cs_team cs_style_1 text-center cs_mb_25 overflow-hidden cs_rounded_50">
                     <div class="cs_team_member position-relative cs_rounded_50">
-                        <img class="w-100 cs_rounded_50" src="{{ asset('/assets/img/team_member_3') }}" alt="Member">
+                        <img class="w-100 cs_rounded_50" src="{{ asset('/assets/img/team_member_3.jpeg') }}" alt="Member">
                         <div class="cs_social_btns d-flex flex-wrap cs_column_gap_15 cs_row_gap_15 cs_transition_5 cs_fs_20 cs_fs_lg_18 position-absolute">
                             <a href="#" class="d-flex align-items-center justify-content-center cs_height_45 cs_width_45 border-0 text-white rounded-circle"><i class="fa-brands fa-facebook-f"></i></a>
                             <a href="#" class="d-flex align-items-center justify-content-center cs_height_45 cs_width_45 border-0 text-white rounded-circle"><i class="fa-brands fa-twitter"></i></a>
@@ -845,193 +547,4 @@
 </section>
 <!-- End Team Section -->
 
-<!-- Start Contact Section  -->
-<section class="background-filled overflow-hidden cs_pt_133 cs_pt_lg_75 cs_pb_140 cs_pb_lg_80" data-src="{{ asset('/assets/img/cta_bg') }}">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-xl-5 col-lg-6">
-                <div class="cs_section_heading cs_style_1 d-flex align-items-center cs_mb_40">
-                    <div class="cs_section_heading_in">
-                        <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">Contact With Us</h3>
-                        <h2 class="cs_fs_48 cs_fs_lg_36 cs_mb_20 text-white">Let’s Work Together?</h2>
-                        <p class="text-white m-0">Providing legal advice, contract drafting, compliance assistance, intellectual property protection, and other legal support for businesses.</p>
-                    </div>
-                </div>
-                <div class="d-flex align-items-center cs_mb_30">
-                    <div class="d-flex align-items-center justify-content-center cs_height_90 cs_width_90 cs_height_lg_80 cs_width_lg-80 cs_rounded_10 flex-none cs_mr_20 bg-accent">
-                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M31.6128 24.7786C30.7939 23.9259 29.8062 23.47 28.7593 23.47C27.7209 23.47 26.7247 23.9175 25.8721 24.7701L23.2043 27.4295C22.9848 27.3113 22.7653 27.2015 22.5543 27.0918C22.2503 26.9398 21.9633 26.7963 21.7185 26.6443C19.2196 25.0572 16.9486 22.9888 14.7705 20.3126C13.7152 18.9787 13.006 17.8559 12.4911 16.7162C13.1833 16.083 13.8249 15.4245 14.4497 14.7914C14.6861 14.555 14.9224 14.3102 15.1588 14.0738C16.9317 12.3009 16.9317 10.0046 15.1588 8.23172L12.8541 5.92698C12.5924 5.66527 12.3222 5.39512 12.0689 5.12497C11.5624 4.60155 11.0305 4.06124 10.4818 3.5547C9.6629 2.74425 8.6836 2.31369 7.65364 2.31369C6.62368 2.31369 5.62749 2.74425 4.78327 3.5547C4.77482 3.56315 4.77482 3.56315 4.76638 3.57159L1.89601 6.46729C0.815398 7.5479 0.199112 8.86489 0.0640356 10.3929C-0.138579 12.8581 0.587457 15.1544 1.14465 16.6571C2.5123 20.3464 4.55533 23.7655 7.60299 27.4295C11.3007 31.8448 15.7498 35.3314 20.832 37.7881C22.7738 38.7083 25.3655 39.7974 28.2612 39.9831C28.4385 39.9916 28.6242 40 28.7931 40C30.7433 40 32.3811 39.2993 33.6643 37.9063C33.6727 37.8894 33.6896 37.881 33.6981 37.8641C34.1371 37.3322 34.6436 36.851 35.1755 36.3361C35.5385 35.9899 35.9099 35.6269 36.2729 35.247C37.1087 34.3774 37.5477 33.3644 37.5477 32.326C37.5477 31.2791 37.1003 30.2745 36.2476 29.4303L31.6128 24.7786ZM34.6351 33.6683C34.6267 33.6683 34.6267 33.6767 34.6351 33.6683C34.3059 34.0229 33.9682 34.3437 33.6052 34.6983C33.0564 35.2217 32.4993 35.7704 31.9758 36.3867C31.1232 37.2985 30.1185 37.729 28.8015 37.729C28.6749 37.729 28.5398 37.729 28.4132 37.7206C25.9058 37.5602 23.5758 36.5809 21.8282 35.7451C17.0499 33.4319 12.8541 30.1479 9.36742 25.9858C6.48861 22.5161 4.56377 19.308 3.28898 15.8635C2.50385 13.7614 2.21682 12.1236 2.34345 10.5787C2.42787 9.59093 2.80777 8.77203 3.50848 8.07132L6.3873 5.19251C6.80097 4.80416 7.23997 4.5931 7.67052 4.5931C8.20239 4.5931 8.63294 4.91391 8.9031 5.18406C8.91154 5.19251 8.91998 5.20095 8.92842 5.20939C9.4434 5.6906 9.93305 6.18869 10.448 6.72056C10.7097 6.99071 10.9799 7.26086 11.25 7.53946L13.5548 9.8442C14.4497 10.7391 14.4497 11.5664 13.5548 12.4613C13.31 12.7061 13.0736 12.951 12.8288 13.1873C12.1196 13.9134 11.4442 14.5888 10.7097 15.2473C10.6929 15.2641 10.676 15.2726 10.6675 15.2895C9.9415 16.0155 10.0766 16.7247 10.2285 17.2059C10.237 17.2312 10.2454 17.2565 10.2539 17.2818C10.8533 18.7339 11.6975 20.1016 12.9807 21.7309L12.9892 21.7394C15.3192 24.6097 17.7759 26.8469 20.4859 28.5607C20.832 28.7802 21.1866 28.9575 21.5243 29.1264C21.8282 29.2783 22.1153 29.4218 22.3601 29.5738C22.3938 29.5907 22.4276 29.616 22.4614 29.6329C22.7484 29.7764 23.0186 29.8439 23.2972 29.8439C23.9979 29.8439 24.4369 29.4049 24.5804 29.2614L27.4677 26.3742C27.7547 26.0871 28.2106 25.741 28.7424 25.741C29.2659 25.741 29.6964 26.0702 29.9581 26.3573C29.9666 26.3657 29.9666 26.3657 29.975 26.3742L34.6267 31.0259C35.4963 31.887 35.4963 32.7734 34.6351 33.6683Z" fill="white" />
-                            <path d="M21.6168 9.51496C23.8287 9.88642 25.838 10.9333 27.442 12.5373C29.046 14.1413 30.0844 16.1506 30.4643 18.3625C30.5572 18.9197 31.0384 19.308 31.5872 19.308C31.6547 19.308 31.7138 19.2996 31.7813 19.2911C32.4061 19.1898 32.8197 18.5989 32.7184 17.9741C32.2625 15.2979 30.9962 12.8581 29.0629 10.9248C27.1296 8.99154 24.6898 7.7252 22.0136 7.26932C21.3889 7.16801 20.8064 7.58168 20.6966 8.19797C20.5869 8.81425 20.9921 9.41365 21.6168 9.51496Z" fill="white" />
-                            <path d="M39.9542 17.6449C39.2028 13.238 37.126 9.22793 33.9349 6.03675C30.7437 2.84557 26.7336 0.768768 22.3267 0.017406C21.7104 -0.0923436 21.1279 0.32977 21.0182 0.946056C20.9169 1.57078 21.3305 2.1533 21.9553 2.26305C25.8894 2.92999 29.4773 4.79573 32.3308 7.64078C35.1843 10.4943 37.0416 14.0822 37.7086 18.0163C37.8014 18.5735 38.2826 18.9619 38.8314 18.9619C38.8989 18.9619 38.958 18.9534 39.0256 18.945C39.6418 18.8521 40.0639 18.2612 39.9542 17.6449Z" fill="white" />
-                        </svg>
-                    </div>
-                    <div>
-                        <p class="text-accent cs_mb_7">Have Any Question?</p>
-                        <h2 class="text-white m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">+ 070 4531 9507 </h2>
-                    </div>
-                </div>
-                <div class="d-flex align-items-center cs_mb_30">
-                    <div class="d-flex align-items-center justify-content-center cs_height_90 cs_width_90 cs_height_lg_80 cs_width_lg-80 cs_rounded_10 flex-none cs_mr_20 bg-accent">
-                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M34.1388 5H5.86125C4.63868 5.00132 3.46656 5.48758 2.60207 6.35207C1.73758 7.21656 1.25132 8.38868 1.25 9.61125V30.3888C1.25132 31.6113 1.73758 32.7834 2.60207 33.6479C3.46656 34.5124 4.63868 34.9987 5.86125 35H34.1388C35.3613 34.9987 36.5334 34.5124 37.3979 33.6479C38.2624 32.7834 38.7487 31.6113 38.75 30.3888V9.61125C38.7487 8.38868 38.2624 7.21656 37.3979 6.35207C36.5334 5.48758 35.3613 5.00132 34.1388 5ZM5.86125 7.5H34.1388C34.6985 7.50066 35.2351 7.72331 35.6309 8.1191C36.0267 8.51489 36.2493 9.05151 36.25 9.61125V10.5675L20 21.0138L3.75 10.5675V9.61125C3.75066 9.05151 3.97331 8.51489 4.3691 8.1191C4.76489 7.72331 5.30151 7.50066 5.86125 7.5ZM34.1388 32.5H5.86125C5.30151 32.4993 4.76489 32.2767 4.3691 31.8809C3.97331 31.4851 3.75066 30.9485 3.75 30.3888V13.54L19.3237 23.5512C19.5254 23.681 19.7602 23.75 20 23.75C20.2398 23.75 20.4746 23.681 20.6763 23.5512L36.25 13.54V30.3888C36.2493 30.9485 36.0267 31.4851 35.6309 31.8809C35.2351 32.2767 34.6985 32.4993 34.1388 32.5Z" fill="white" />
-                        </svg>
-                    </div>
-                    <div>
-                        <p class="text-accent cs_mb_7">Send Email</p>
-                        <h2 class="text-white m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">bizmax@laralink.com</h2>
-                    </div>
-                </div>
-                <div class="d-flex align-items-center">
-                    <div class="d-flex align-items-center justify-content-center cs_height_90 cs_width_90 cs_height_lg_80 cs_width_lg-80 cs_rounded_10 flex-none cs_mr_20 bg-accent">
-                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M20.0002 0C12.0123 0 5.51367 6.49859 5.51367 14.4864C5.51367 24.3995 18.4777 38.9526 19.0296 39.5673C19.548 40.1447 20.4532 40.1437 20.9707 39.5673C21.5227 38.9526 34.4866 24.3995 34.4866 14.4864C34.4865 6.49859 27.988 0 20.0002 0ZM20.0002 36.6976C15.6371 31.5149 8.12242 21.29 8.12242 14.4866C8.12242 7.93703 13.4507 2.60875 20.0002 2.60875C26.5496 2.60875 31.8779 7.93703 31.8779 14.4865C31.8778 21.2902 24.3643 31.5133 20.0002 36.6976Z" fill="white" />
-                            <path d="M20.0004 7.19797C15.9814 7.19797 12.7119 10.4676 12.7119 14.4865C12.7119 18.5054 15.9815 21.775 20.0004 21.775C24.0192 21.775 27.2887 18.5054 27.2887 14.4865C27.2887 10.4676 24.0192 7.19797 20.0004 7.19797ZM20.0004 19.1662C17.4199 19.1662 15.3207 17.067 15.3207 14.4865C15.3207 11.906 17.42 9.80672 20.0004 9.80672C22.5807 9.80672 24.68 11.906 24.68 14.4865C24.68 17.067 22.5807 19.1662 20.0004 19.1662Z" fill="white" />
-                        </svg>
-                    </div>
-                    <div>
-                        <p class="text-accent cs_mb_7">Address</p>
-                        <h2 class="text-white m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">Yewtree Cottage, Kings Pyon, <br>HR4 8PZ</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-5 col-lg-6 offset-xl-1 cs_mt_lg_55">
-                <div class="cs_contact_wrap position-relative">
-                    <form action="#" class="cs_contact_form bg-white cs_pt_64 cs_pl_80 cs_pr_80 cs_pb_80 cs_pl_lg_30 cs_pr_lg_30 position-relative cs_rounded_20" data-src="{{ asset('/assets/img/contact_bg_pattern') }}">
-                        <div class="cs_section_heading cs_style_1 d-flex align-items-center text-center cs_mb_30">
-                            <div class="cs_section_heading_in">
-                                <h2 class="cs_fs_48 cs_fs_lg_36 m-0">Contact Us</h2>
-                            </div>
-                        </div>
-                        <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_15 bg-gray" type="text" placeholder="Your Name">
-                        <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_15 bg-gray" type="email" placeholder="Your Email">
-                        <textarea class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_30 bg-gray" placeholder="Message here ..." cols="30" rows="4"></textarea>
-                        <button class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden"><span>Submit Now</span></button>
-                    </form>
-                    <div class="cs_contact_image d-none d-xl-block wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.4s"><img src="{{ asset('/assets/img/contact_img_1') }}" alt=""></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Contact Section  -->
-<!-- Start Brands -->
-<div class="cs_pt_140 cs_pt_lg_80">
-    <div class="container">
-        <div class="cs_brands d-flex justify-content-xl-between align-items-center cs_column_gap_25 cs_row_gap_25 flex-wrap justify-content-center">
-            <div class="cs_brand"><img src="{{ asset('/assets/img/brand_1') }}" alt="Brand"></div>
-            <div class="cs_brand"><img src="{{ asset('/assets/img/brand_2') }}" alt="Brand"></div>
-            <div class="cs_brand"><img src="{{ asset('/assets/img/brand_3') }}" alt="Brand"></div>
-            <div class="cs_brand"><img src="{{ asset('/assets/img/brand_4') }}" alt="Brand"></div>
-            <div class="cs_brand"><img src="{{ asset('/assets/img/brand_5') }}" alt="Brand"></div>
-        </div>
-    </div>
-</div>
-<!-- End Brands -->
-<!-- Start Blog Section -->
-<section class="cs_pt_115 cs_pt_lg_75 cs_pb_110 cs_pb_lg_50">
-    <div class="container">
-        <div class="cs_section_heading cs_style_1 d-flex align-items-center text-center cs_mb_60 cs_mb_lg_40">
-            <div class="cs_section_heading_in">
-                <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Find The Blogs</h3>
-                <h2 class="cs_fs_48 cs_fs_lg_36 m-0">Find Out Latest News <br>and Articles</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="cs_post cs_style_1 bg-white shadow-sm cs_mb_30">
-                    <a href="blog-details.html" class="cs_post_thumb d-block position-relative overflow-hidden">
-                        <div class="cs_post_thumb-in cs_transition_5 background-filled h-100 w-100" data-src="{{ asset('/assets/img/post_1') }}"></div>
-                    </a>
-                    <div class="cs_post_in">
-                        <div class="cs_post_info cs_pl_33 cs_pr_33 cs_pt_40 cs_pb_40">
-                            <ul class="cs_post_meta d-flex flex-wrap cs_fs_12 p-0 cs_mb_16">
-                                <li>
-                                    <span><i class="fa-solid fa-user"></i> By </span>
-                                    <a href="">admin</a>
-                                </li>
-                                <li>
-                                    <span><i class="fa-solid fa-comment-dots"></i></span>
-                                    <a href="">3 comments</a>
-                                </li>
-                            </ul>
-                            <h2 class="cs_post_title cs_lh_base cs_fs_20 cs_fs_lg_18 cs_mb_10"><a href="blog-details.html">What services does your business provide?</a></h2>
-                            <div class="cs_post_subtitle">We provide a range of digital marketing lutions including website design.</div>
-                        </div>
-                        <a href="blog-details.html" class="cs_post_btn d-flex justify-content-between align-items-center cs_pl_40 cs_pr_40 cs_pb_10 cs_pt_10">
-                            <span class="cs_post_btn-text">Read More</span>
-                            <div class="cs_post_btn-icon d-flex cs_transition_4">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M11.9999 0.224976C6.52011 0.224976 1.63131 4.16368 0.485006 9.52707C-0.0876941 12.207 0.298106 15.0567 1.57581 17.4816C2.80551 19.8153 4.82151 21.7014 7.23351 22.7703C9.74241 23.8824 12.6227 24.0762 15.2597 23.3178C17.8037 22.5864 20.0594 20.9811 21.5951 18.8262C24.806 14.3211 24.3767 7.99288 20.5991 3.95608C18.3851 1.59028 15.2405 0.224976 11.9999 0.224976ZM17.6486 12.6291L14.4386 15.9165C13.6259 16.749 12.3413 15.4878 13.1507 14.6592L14.7704 13.0005H7.09461C6.54951 13.0005 6.09471 12.5454 6.09471 12.0006C6.09471 11.4558 6.54981 11.0007 7.09461 11.0007H14.732L13.0802 9.34918C12.2594 8.52838 13.532 7.25548 14.3528 8.07628L17.6411 11.3643C17.9897 11.7126 17.993 12.2766 17.6486 12.6291Z" fill="currentColor" />
-                                </svg>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="cs_post cs_style_1 bg-white shadow-sm cs_mb_30">
-                    <a href="blog-details.html" class="cs_post_thumb d-block position-relative overflow-hidden">
-                        <div class="cs_post_thumb-in cs_transition_5 background-filled h-100 w-100" data-src="{{ asset('/assets/img/post_2') }}"></div>
-                    </a>
-                    <div class="cs_post_in">
-                        <div class="cs_post_info cs_pl_33 cs_pr_33 cs_pt_40 cs_pb_40">
-                            <ul class="cs_post_meta d-flex flex-wrap cs_fs_12 p-0 cs_mb_16">
-                                <li>
-                                    <span><i class="fa-solid fa-user"></i> By </span>
-                                    <a href="">admin</a>
-                                </li>
-                                <li>
-                                    <span><i class="fa-solid fa-comment-dots"></i></span>
-                                    <a href="">3 comments</a>
-                                </li>
-                            </ul>
-                            <h2 class="cs_post_title cs_lh_base cs_fs_20 cs_fs_lg_18 cs_mb_10"><a href="blog-details.html">Introducing the latest tech features for you</a></h2>
-                            <div class="cs_post_subtitle">We provide a range of digital marketing lutions including website design.</div>
-                        </div>
-                        <a href="blog-details.html" class="cs_post_btn d-flex justify-content-between align-items-center cs_pl_40 cs_pr_40 cs_pb_10 cs_pt_10">
-                            <span class="cs_post_btn-text">Read More</span>
-                            <div class="cs_post_btn-icon d-flex cs_transition_4">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M11.9999 0.224976C6.52011 0.224976 1.63131 4.16368 0.485006 9.52707C-0.0876941 12.207 0.298106 15.0567 1.57581 17.4816C2.80551 19.8153 4.82151 21.7014 7.23351 22.7703C9.74241 23.8824 12.6227 24.0762 15.2597 23.3178C17.8037 22.5864 20.0594 20.9811 21.5951 18.8262C24.806 14.3211 24.3767 7.99288 20.5991 3.95608C18.3851 1.59028 15.2405 0.224976 11.9999 0.224976ZM17.6486 12.6291L14.4386 15.9165C13.6259 16.749 12.3413 15.4878 13.1507 14.6592L14.7704 13.0005H7.09461C6.54951 13.0005 6.09471 12.5454 6.09471 12.0006C6.09471 11.4558 6.54981 11.0007 7.09461 11.0007H14.732L13.0802 9.34918C12.2594 8.52838 13.532 7.25548 14.3528 8.07628L17.6411 11.3643C17.9897 11.7126 17.993 12.2766 17.6486 12.6291Z" fill="currentColor" />
-                                </svg>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="cs_post cs_style_1 bg-white shadow-sm cs_mb_30">
-                    <a href="blog-details.html" class="cs_post_thumb d-block position-relative overflow-hidden">
-                        <div class="cs_post_thumb-in cs_transition_5 background-filled h-100 w-100" data-src="{{ asset('/assets/img/post_3') }}"></div>
-                    </a>
-                    <div class="cs_post_in">
-                        <div class="cs_post_info cs_pl_33 cs_pr_33 cs_pt_40 cs_pb_40">
-                            <ul class="cs_post_meta d-flex flex-wrap cs_fs_12 p-0 cs_mb_16">
-                                <li>
-                                    <span><i class="fa-solid fa-user"></i> By </span>
-                                    <a href="">admin</a>
-                                </li>
-                                <li>
-                                    <span><i class="fa-solid fa-comment-dots"></i></span>
-                                    <a href="">3 comments</a>
-                                </li>
-                            </ul>
-                            <h2 class="cs_post_title cs_lh_base cs_fs_20 cs_fs_lg_18 cs_mb_10"><a href="blog-details.html">The creative studio programm coming soon</a></h2>
-                            <div class="cs_post_subtitle">We provide a range of digital marketing lutions including website design.</div>
-                        </div>
-                        <a href="blog-details.html" class="cs_post_btn d-flex justify-content-between align-items-center cs_pl_40 cs_pr_40 cs_pb_10 cs_pt_10">
-                            <span class="cs_post_btn-text">Read More</span>
-                            <div class="cs_post_btn-icon d-flex cs_transition_4">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M11.9999 0.224976C6.52011 0.224976 1.63131 4.16368 0.485006 9.52707C-0.0876941 12.207 0.298106 15.0567 1.57581 17.4816C2.80551 19.8153 4.82151 21.7014 7.23351 22.7703C9.74241 23.8824 12.6227 24.0762 15.2597 23.3178C17.8037 22.5864 20.0594 20.9811 21.5951 18.8262C24.806 14.3211 24.3767 7.99288 20.5991 3.95608C18.3851 1.59028 15.2405 0.224976 11.9999 0.224976ZM17.6486 12.6291L14.4386 15.9165C13.6259 16.749 12.3413 15.4878 13.1507 14.6592L14.7704 13.0005H7.09461C6.54951 13.0005 6.09471 12.5454 6.09471 12.0006C6.09471 11.4558 6.54981 11.0007 7.09461 11.0007H14.732L13.0802 9.34918C12.2594 8.52838 13.532 7.25548 14.3528 8.07628L17.6411 11.3643C17.9897 11.7126 17.993 12.2766 17.6486 12.6291Z" fill="currentColor" />
-                                </svg>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Blog Section -->
 @endsection("content")
