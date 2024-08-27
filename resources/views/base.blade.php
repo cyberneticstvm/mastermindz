@@ -73,20 +73,6 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="cs_footer_item cs_pt_20 cs_pb_20">
-                            <div class="cs_newsletter cs_style_1">
-                                <h2 class="cs_newsletter_title text-white cs_fs_22 cs_mb_9">Newsletter</h2>
-                                <p class="cs_newsletter_subtitle cs_mb_26"> At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit. </p>
-                                <form action="#" class="cs_newsletter_form position-relative">
-                                    <input type="email" class="cs_newsletter_input text-white cs_fs_14 cs_rounded_5 border-0 w-100 cs_pt_10" placeholder="Enter your mail">
-                                    <button class="cs_newsletter_btn cs_fs_14 cs_rounded_5 cs_transition_4 bg-accent position-absolute text-uppercase">
-                                        <span>Go</span>
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
