@@ -231,9 +231,6 @@
                 <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">Our Service List</h3>
                 <h2 class="cs_fs_48 cs_fs_lg_36 m-0">We Provide The Solution <br>For Our Clients</h2>
             </div>
-            <div class="cs_section_heading_right">
-                <p class="cs_section_text m-0">I have been a loyal customer of this auto parts company for years and I cannot recommend them enough. Their extensive selection of high-quality parts and accessories.</p>
-            </div>
         </div>
         <div class="row">
             <div class="col-xl-3 col-md-6">
