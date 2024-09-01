@@ -38,7 +38,7 @@ class ContactFormSubmitEmail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'web.contact-form-submit-email',
+            view: 'contact-form-submit-email',
             with: ['data' => $this->data],
         );
     }
