@@ -92,6 +92,7 @@
     <script src="{{ asset('/assets/js/plugins/wow.min.js') }}"></script>
     <script src="{{ asset('/assets/js/plugins/swiper.min.js') }}"></script>
     <script src="{{ asset('/assets/js/main.js') }}"></script>
+    <script src="{{ asset('/assets/js/script.js') }}"></script>
 </body>
 
 </html>

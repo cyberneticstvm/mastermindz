@@ -12,7 +12,7 @@
                 <div class="cs_top_header_right">
                     <ul class="cs_top_nav d-flex flex-wrap align-items-center cs_fs_12 text-white m-0 p-0">
                         <li><a href="#">English</a></li>
-                        <li><a href="#">Italian</a></li>
+                        <li><a href="#">French</a></li>
                     </ul>
                 </div>
             </div>

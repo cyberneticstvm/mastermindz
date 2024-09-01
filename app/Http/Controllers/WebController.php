@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Exception;
+use App\Mail\ContactFormSubmitEmail;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -31,7 +32,7 @@ class WebController extends Controller
     }
     function refreshCaptcha()
     {
-        return response()->json(['captcha' => captcha_img('math')]);
+        return response()->json(['captcha' => captcha_img('flat')]);
     }
 
     function contactSubmit(Request $request): RedirectResponse
@@ -40,14 +41,15 @@ class WebController extends Controller
             [
                 'name' => 'required',
                 'email' => 'required|email',
-                'phone' => 'required',
+                'mobile' => 'required',
+                'subject' => 'required',
                 'message' => 'required',
                 'captcha' => 'required|captcha',
             ],
             ['captcha.captcha' => 'Invalid captcha code.']
         );
         try {
-            //Mail::to('info@echelonconsultant.com')->cc('shihan@echelonconsultant.com')->send(new ContactFormSubmitEmail($request));
+            Mail::to('mastermindz.fze@gmail.com')->cc('cyberneticstvm@gmail.com')->send(new ContactFormSubmitEmail($request));
         } catch (Exception $e) {
             return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
         }

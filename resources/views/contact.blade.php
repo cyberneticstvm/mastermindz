@@ -37,24 +37,62 @@
                         <h2 class="cs_fs_48 cs_fs_lg_36 m-0">Write a Message</h2>
                     </div>
                 </div>
-                <form class="row">
+                @if(session('success'))
+                <div class="alert alert-success">
+                    {{ session('success') }}
+                </div>
+                @endif
+                @if(session('error'))
+                <div class="alert alert-danger">
+                    {{ session('error') }}
+                </div>
+                @endif
+                <form class="row" action="{{ route('contact.submit') }}" method="post">
+                    @csrf
                     <div class="col-lg-6">
-                        <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_35 bg-gray" type="text" placeholder="Your Name">
+                        <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_35 bg-gray" type="text" placeholder="Your Name" name="name" value="{{ old('name') }}">
+                        @error('name')
+                        <small class="text-danger">{{ $errors->first('name') }}</small>
+                        @enderror
                     </div>
                     <div class="col-lg-6">
-                        <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_35 bg-gray" type="text" placeholder="Email Address">
+                        <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_35 bg-gray" type="email" placeholder="Email Address" name="email" value="{{ old('email') }}">
+                        @error('email')
+                        <small class="text-danger">{{ $errors->first('email') }}</small>
+                        @enderror
                     </div>
                     <div class="col-lg-6">
-                        <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_35 bg-gray" type="text" placeholder="Phone">
+                        <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_35 bg-gray" type="text" placeholder="Phone" name="mobile" value="{{ old('mobile') }}">
+                        @error('mobile')
+                        <small class="text-danger">{{ $errors->first('mobile') }}</small>
+                        @enderror
                     </div>
                     <div class="col-lg-6">
-                        <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_35 bg-gray" type="text" placeholder="Subject">
+                        <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_35 bg-gray" type="text" placeholder="Subject" name="subject" value="{{ old('subject') }}">
+                        @error('subject')
+                        <small class="text-danger">{{ $errors->first('subject') }}</small>
+                        @enderror
                     </div>
                     <div class="col-lg-12">
-                        <textarea class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_40 bg-gray" placeholder="Message here ..." cols="35" rows="7"></textarea>
+                        <textarea class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_40 bg-gray" placeholder="Message here ..." cols="35" rows="7" name="message">{{ old('message') }}</textarea>
+                        @error('message')
+                        <small class="text-danger">{{ $errors->first('message') }}</small>
+                        @enderror
                     </div>
-                    <div class="col-lg-12">
-                        <button class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden"><span>Send A Message</span></button>
+                    <div class="col-lg-6">
+                        <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha" name="captcha" required>
+                        @error('captcha')
+                        <small class="text-danger">{{ $errors->first('captcha') }}</small>
+                        @enderror
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="captcha mt-3">
+                            <span>{!! captcha_img('flat') !!}</span>
+                            <a class="btn btn-success btn-refresh"><i class="fa fa-refresh"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mt-3 text-end">
+                        <button class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden btn-submit"><span>Send Message</span></button>
                     </div>
                 </form>
             </div>
@@ -77,7 +115,7 @@
                         </div>
                         <div>
                             <p class="text-accent cs_mb_7">Have Any Question?</p>
-                            <h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">+971 54 548 5795</h2>
+                            <h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">+971 54 548 5795, +971 52 661 0501</h2>
                         </div>
                     </div>
                     <div class="d-flex align-items-center cs_mb_30">
