@@ -49,7 +49,7 @@ class WebController extends Controller
             //['captcha.captcha' => 'Invalid captcha code.']
         );
         try {
-            Mail::to('mastermindz.fze@gmail.com')->cc('cyberneticstvm@gmail.com')->send(new ContactFormSubmitEmail($request));
+            Mail::to('mastermindz.fze@gmail.com')->send(new ContactFormSubmitEmail($request));
         } catch (Exception $e) {
             return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
         }
