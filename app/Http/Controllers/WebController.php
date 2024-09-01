@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Exception;
 use App\Mail\ContactFormSubmitEmail;
 use Illuminate\Http\RedirectResponse;
-use App\Http\Request;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
 class WebController extends Controller
