@@ -44,9 +44,9 @@ class WebController extends Controller
                 'mobile' => 'required',
                 'subject' => 'required',
                 'message' => 'required',
-                'captcha' => 'required|captcha',
+                //'captcha' => 'required|captcha',
             ],
-            ['captcha.captcha' => 'Invalid captcha code.']
+            //['captcha.captcha' => 'Invalid captcha code.']
         );
         try {
             Mail::to('mastermindz.fze@gmail.com')->cc('cyberneticstvm@gmail.com')->send(new ContactFormSubmitEmail($request));

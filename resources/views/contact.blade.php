@@ -79,7 +79,7 @@
                         <small class="text-danger">{{ $errors->first('message') }}</small>
                         @enderror
                     </div>
-                    <div class="col-lg-6">
+                    <!--<div class="col-lg-6">
                         <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha" name="captcha" required>
                         @error('captcha')
                         <small class="text-danger">{{ $errors->first('captcha') }}</small>
@@ -90,7 +90,7 @@
                             <span>{!! captcha_img('flat') !!}</span>
                             <a class="btn btn-success btn-refresh"><i class="fa fa-refresh"></i></a>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="col-lg-12 mt-3 text-end">
                         <button class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden btn-submit"><span>Send Message</span></button>
                     </div>
