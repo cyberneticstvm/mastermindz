@@ -87,7 +87,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="captcha mt-3">
-                            <span>{!! captcha_img('flat') !!}</span>
+                            <span></span>
                             <a class="btn btn-success btn-refresh"><i class="fa fa-refresh"></i></a>
                         </div>
                     </div>-->
