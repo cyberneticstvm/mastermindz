@@ -29,18 +29,19 @@
                         <ul class="cs_nav_list fw-medium text-uppercase">
                             <li><a href="{{ route('index') }}">Home</a></li>
                             <li><a href="{{ route('about') }}">About</a></li>
+                            <li><a href="{{ route('business.setup') }}">Business SetUp</a></li>
+                            <li><a href="{{ route('accounting.and.taxation') }}">Accounting and Taxation</a></li>
                             <li class="menu-item-has-children">
                                 <a href="{{ route('services') }}">Services</a>
                                 <ul>
-                                    <li><a href="{{ route('services') }}">Company Formation and Registration</a></li>
-                                    <li><a href="{{ route('services') }}">Corporate Secretarial Services</a></li>
-                                    <li><a href="{{ route('services') }}">Accounting and Bookkeeping</a></li>
-                                    <li><a href="{{ route('services') }}">Business Advisory and Consultancy</a></li>
                                     <li><a href="{{ route('services') }}">Legal and Compliance Services</a></li>
-                                    <li><a href="{{ route('services') }}">Human Resources and Recruitment</a></li>
-                                    <li><a href="{{ route('services') }}">Office Setup and Support Services</a></li>
-                                    <li><a href="{{ route('services') }}">Market Research and Feasibility Studies</a></li>
-                                    <li><a href="{{ route('services') }}">Taxation Services and International Tax Advisory</a></li>
+                                    <li><a href="{{ route('services') }}">Bank Account Opening </a></li>
+                                    <li><a href="{{ route('services') }}">Brand Registration / Trademark Registration</a></li>
+                                    <li><a href="{{ route('services') }}">PRO Services</a></li>
+                                    <li><a href="{{ route('services') }}">Golden Visa</a></li>
+                                    <li><a href="{{ route('services') }}">Single and Multiple Family Office </a></li>
+                                    <li><a href="{{ route('services') }}">Will Preparation Service</a></li>
+                                    <li><a href="{{ route('services') }}">DIFC AND ADGM foundation and Trustee Services </a></li>
                                 </ul>
                             </li>
                             <li><a href="{{ route('contact') }}">Contact</a></li>

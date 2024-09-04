@@ -6,10 +6,10 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb text-white cs_fs_18 cs_mb_5">
                 <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
-                <li class="breadcrumb-item active">About</li>
+                <li class="breadcrumb-item active">Accounting & Taxation</li>
             </ol>
         </nav>
-        <h1 class="cs_fs_48 cs_fs_lg_36 text-white m-0">About Us</h1>
+        <h1 class="cs_fs_48 cs_fs_lg_36 text-white m-0">Accounting & Taxation</h1>
     </div>
     <div class="position-absolute end-0 bottom-0">
         <svg width="660" height="497" viewBox="0 0 660 497" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,7 +26,6 @@
     </div>
 </section>
 <!-- End Page Header -->
-<!-- Start About Section -->
 <section class="cs_pt_135 cs_pt_lg_75 cs_pb_140 cs_pb_lg_80 position-relative">
     <div class="container">
         <div class="row">
@@ -50,36 +49,20 @@
                 <div class="cs_about cs_style_1">
                     <div class="cs_section_heading cs_style_1 d-flex align-items-center cs_mb_15">
                         <div class="cs_section_heading_in">
-                            <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">About Us</h3>
-                            <h2 class="cs_fs_48 cs_fs_lg_36 cs_mb_20">Get Ready for Success with <span class="text-accent">Master Mindz</span> Your Path to Growth.</h2>
-                            <p class="m-0">Welcome to <span class="text-accent">MasterMindz</span>, your trusted corporate service provider with a keen focus on delivering exceptional business solutions, we specialize in assisting companies from UAE, Europe, Singapore, KSA, Asia and Middle east in navigating the complexities of establishing and growing their presence in the UAE and vice versa. Our comprehensive range of services is designed to cater to the unique needs of our clients, ensuring seamless operations and sustainable growth.</p>
-                            <p class="m-0">At <span class="text-accent">MasterMindz</span>, we pride ourselves on our expertise, reliability, and commitment to excellence. Our team of seasoned professionals provides personalized solutions that align with your business objectives, helping you achieve your goals efficiently and effectively.</p>
-                            <p class="m-0">Launching a company anywhere in the world can be intricate, yet it becomes straightforward with the right expertise. Our Dubai-based business set-up consultants, boasting 10+ years of industry experience, are equipped to facilitate your establishment process. We have a proven track record of assisting entrepreneurs in navigating the complexities of company formation, ensuring a seamless and efficient setup in Dubai. With our professional guidance, the path to starting your business is streamlined and expertly managed.</p>
-                        </div>
-                    </div>
-                    <div class="cs_progressbar cs_style_1 cs_mb_20">
-                        <div class="cs_progressbar_heading d-flex justify-content-between align-items-center cs_mb_8">
-                            <h3 class="fw-medium m-0 cs_fs_18">Company Formation and Registration</h3>
-                            <p class="cs_fs_14 cs_lh_base m-0">100%</p>
-                        </div>
-                        <div class="cs_progress cs_rounded_8 overflow-hidden" data-progress="100">
-                            <div class="cs_progress_in bg-accent cs_rounded_8 h-100 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s"></div>
-                        </div>
-                    </div><!-- .cs_progressbar -->
-                    <div class="row cs_mb_15">
-                        <div class="col-lg-6">
-                            <div class="cs_about-icon-box position-relative cs_mb_25">
-                                <span class="position-absolute cs_height_20 cs_width_20 top-0 start-0 cs_mt_5 bg-accent text-white cs_fs_10 d-flex align-items-center justify-content-center cs_rounded_30"><i class="fa-solid fa-angles-right"></i></span>
-                                <h3 class="cs_fs_16 cs_pl_35 cs_mb_12 cs_lh_lg">Our Mission</h3>
-                                <p>At MasterMindz, our mission is to empower businesses by providing them with the tools and expertise needed to thrive in a competitive global market. We strive to build long-term relationships with our clients based on trust, transparency, and mutual success.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="cs_about-icon-box position-relative cs_mb_25">
-                                <span class="position-absolute cs_height_20 cs_width_20 top-0 start-0 cs_mt_5 bg-accent text-white cs_fs_10 d-flex align-items-center justify-content-center cs_rounded_30"><i class="fa-solid fa-angles-right"></i></span>
-                                <h3 class="cs_fs_16 cs_pl_35 cs_mb_12 cs_lh_lg">Our Vision</h3>
-                                <p>Our vision is to be the leading corporate service provider in the UAE and EU, recognized for our innovative solutions, exceptional service quality, and commitment to client satisfaction. We aim to be the preferred partner for businesses seeking to establish and expand their operations in the UAE and other countries.</p>
-                            </div>
+                            <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">Accounting and Taxation</h3>
+                            <h2 class="cs_fs_48 cs_fs_lg_36 cs_mb_20">VAT AND CORPORATE TAX </h2>
+                            <p class="m-0">Our team of highly experienced and qualified accountants will help you easily understand and comply with the UAE’s Value Added Tax policy. We will assess your invoices, quotations, contracts and purchase orders and help you determine if your business falls under any of these two categories: mandatory and voluntary registration.<br />
+                                <strong>- Mandatory registration:</strong> Your company’s value of taxable goods and services exceeded the mandatory registration threshold (AED 375,000.00) over the previous 12-month period, or your company’s anticipated total value of all taxable goods and services will exceed the mandatory registration threshold (AED 375,000.00) in the next 30 days.<br />
+                                <strong>- Voluntary registration:</strong> Your company’s value of taxable goods and services exceeded the voluntary registration threshold (AED 187,500.00) over the previous 12-month period, or your company’s anticipated total value of all taxable goods and services will exceed the voluntary registration threshold (AED 187,500.00) in the next 30 days.
+                            </p>
+                            <h2 class="cs_fs_48 cs_fs_lg_36 cs_mb_20">INTERNATIONAL TAX ADVISORY</h2>
+                            <p>At MasterMindz, we offer specialized taxation and international tax advisory services, particularly between Europe and the Middle East. Our services include:<br />
+                                <strong>- Application of International Tax Treaties:</strong>Assisting individuals and companies in applying tax treaties to avoid double taxation.<br />
+                                <strong>- Tax Optimization: </strong>Providing strategies to legally minimize tax liabilities both in the UAE and in high-tax jurisdictions for both corporations and individuals.<br />
+                                <strong>- Dividend and Capital Flow Advisory: </strong>Offering guidance on dividend repatriation and capital movement for tax efficiency.<br />
+                                <strong>- Exit Tax: </strong>Assisting with the management of exit taxes during international residency changes.<br />
+                                <strong>- Tax Residency:</strong> Ensuring the acquisition of tax residency in the UAE for individuals and legally valid renunciation of tax residency in their home country.
+                            </p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center cs_row_gap_20 cs_column_gap_30 cs_column_gap_lg_20 flex-wrap">
@@ -105,5 +88,4 @@
         </svg>
     </div>
 </section>
-<!-- End About Section -->
 @endsection("content")

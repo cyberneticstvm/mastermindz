@@ -18,6 +18,14 @@ class WebController extends Controller
     {
         return view('about');
     }
+    function businessSetup()
+    {
+        return view('business-setup');
+    }
+    function accountingAndTaxation()
+    {
+        return view('aandt');
+    }
     function services()
     {
         return view('services');

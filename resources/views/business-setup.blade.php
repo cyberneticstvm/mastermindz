@@ -6,10 +6,10 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb text-white cs_fs_18 cs_mb_5">
                 <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
-                <li class="breadcrumb-item active">About</li>
+                <li class="breadcrumb-item active">Business Setup</li>
             </ol>
         </nav>
-        <h1 class="cs_fs_48 cs_fs_lg_36 text-white m-0">About Us</h1>
+        <h1 class="cs_fs_48 cs_fs_lg_36 text-white m-0">Business Setup</h1>
     </div>
     <div class="position-absolute end-0 bottom-0">
         <svg width="660" height="497" viewBox="0 0 660 497" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -50,11 +50,9 @@
                 <div class="cs_about cs_style_1">
                     <div class="cs_section_heading cs_style_1 d-flex align-items-center cs_mb_15">
                         <div class="cs_section_heading_in">
-                            <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">About Us</h3>
-                            <h2 class="cs_fs_48 cs_fs_lg_36 cs_mb_20">Get Ready for Success with <span class="text-accent">Master Mindz</span> Your Path to Growth.</h2>
-                            <p class="m-0">Welcome to <span class="text-accent">MasterMindz</span>, your trusted corporate service provider with a keen focus on delivering exceptional business solutions, we specialize in assisting companies from UAE, Europe, Singapore, KSA, Asia and Middle east in navigating the complexities of establishing and growing their presence in the UAE and vice versa. Our comprehensive range of services is designed to cater to the unique needs of our clients, ensuring seamless operations and sustainable growth.</p>
-                            <p class="m-0">At <span class="text-accent">MasterMindz</span>, we pride ourselves on our expertise, reliability, and commitment to excellence. Our team of seasoned professionals provides personalized solutions that align with your business objectives, helping you achieve your goals efficiently and effectively.</p>
-                            <p class="m-0">Launching a company anywhere in the world can be intricate, yet it becomes straightforward with the right expertise. Our Dubai-based business set-up consultants, boasting 10+ years of industry experience, are equipped to facilitate your establishment process. We have a proven track record of assisting entrepreneurs in navigating the complexities of company formation, ensuring a seamless and efficient setup in Dubai. With our professional guidance, the path to starting your business is streamlined and expertly managed.</p>
+                            <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">Business Setup</h3>
+                            <h2 class="cs_fs_48 cs_fs_lg_36 cs_mb_20">Company Formation and Registration.</h2>
+                            <p class="m-0">Establishing a company in Dubai involves several jurisdiction options, including Mainland, Free Zone, and Offshore, each catering to different business needs. Businesses can choose structures like LLCs, branches, and subsidiaries, with Free Zones allowing full foreign ownership and the mainland typically requiring a local partner. The process includes securing licenses, drafting legal documents, and registering with the relevant authorities. <span class="text-accent">#MasterMindzBizBuild</span> offer comprehensive support in setting up companies not only in Dubai but also across various jurisdictions in the UAE, Europe, Singapore, KSA, Asia, and the Middle East. Our services include expert guidance on selecting the appropriate business and shareholding structure, as well as ensuring compliance with all legal requirements.</p>
                         </div>
                     </div>
                     <div class="cs_progressbar cs_style_1 cs_mb_20">
@@ -66,22 +64,6 @@
                             <div class="cs_progress_in bg-accent cs_rounded_8 h-100 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s"></div>
                         </div>
                     </div><!-- .cs_progressbar -->
-                    <div class="row cs_mb_15">
-                        <div class="col-lg-6">
-                            <div class="cs_about-icon-box position-relative cs_mb_25">
-                                <span class="position-absolute cs_height_20 cs_width_20 top-0 start-0 cs_mt_5 bg-accent text-white cs_fs_10 d-flex align-items-center justify-content-center cs_rounded_30"><i class="fa-solid fa-angles-right"></i></span>
-                                <h3 class="cs_fs_16 cs_pl_35 cs_mb_12 cs_lh_lg">Our Mission</h3>
-                                <p>At MasterMindz, our mission is to empower businesses by providing them with the tools and expertise needed to thrive in a competitive global market. We strive to build long-term relationships with our clients based on trust, transparency, and mutual success.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="cs_about-icon-box position-relative cs_mb_25">
-                                <span class="position-absolute cs_height_20 cs_width_20 top-0 start-0 cs_mt_5 bg-accent text-white cs_fs_10 d-flex align-items-center justify-content-center cs_rounded_30"><i class="fa-solid fa-angles-right"></i></span>
-                                <h3 class="cs_fs_16 cs_pl_35 cs_mb_12 cs_lh_lg">Our Vision</h3>
-                                <p>Our vision is to be the leading corporate service provider in the UAE and EU, recognized for our innovative solutions, exceptional service quality, and commitment to client satisfaction. We aim to be the preferred partner for businesses seeking to establish and expand their operations in the UAE and other countries.</p>
-                            </div>
-                        </div>
-                    </div>
                     <div class="d-flex align-items-center cs_row_gap_20 cs_column_gap_30 cs_column_gap_lg_20 flex-wrap">
                         <a href="{{ route('contact') }}" class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden"><span>Get A Quote</span></a>
                         <a href="https://www.youtube.com/embed/VStvZjykQ00" class="cs_video_open d-flex align-items-center">
@@ -106,4 +88,52 @@
     </div>
 </section>
 <!-- End About Section -->
+<!-- Start Team Section -->
+<section class="cs_pb_115 cs_pb_lg_55">
+    <div class="container">
+        <div class="cs_section_heading cs_style_1 d-flex align-items-center text-center cs_mb_60 cs_mb_lg_40">
+            <div class="cs_section_heading_in">
+                <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">FREE ZONE</h3>
+                <h2 class="cs_fs_48 cs_fs_lg_36 m-0">Advantages of Setting Up in a Free Zone</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="cs_mb_30 cs_list cs_style_1">
+                    <li><strong>Full Ownership: </strong> One of the key benefits of UAE free zones is the ability for foreign investors to maintain 100% ownership of their businesses, eliminating the need for a local partner.</li>
+                    <li><strong>Simplified Licensing: </strong> Certain business activities may require approvals from specific authorities. Contact us for a complimentary consultation, and our experts will help you navigate the requirements and secure the necessary licenses.</li>
+                    <li><strong>Financial Benefits: </strong> Free zones offer significant financial advantages, including a 0% income tax rate, exemption from customs duties on imports and exports, and the ability to repatriate all profits.</li>
+                    <li><strong>Industry Focus: </strong> Many UAE free zones are dedicated to specific industries, providing entrepreneurs with valuable access to specialized knowledge and networking opportunities within their sector.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Team Section -->
+<!-- Start Team Section -->
+<section class="cs_pb_115 cs_pb_lg_55">
+    <div class="container">
+        <div class="cs_section_heading cs_style_1 d-flex align-items-center text-center cs_mb_60 cs_mb_lg_40">
+            <div class="cs_section_heading_in">
+                <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">MAINLAND</h3>
+                <h2 class="cs_fs_48 cs_fs_lg_36 m-0">Understanding UAE Mainland Companies and Their Importance</h2>
+                <P>A UAE mainland company is a business entity licensed by the Department of Economic Development (DED) in the relevant Emirate of the United Arab Emirates. Establishing a mainland company offers several significant advantages. Here's a summary of why setting up a mainland company in Dubai is beneficial, along with key considerations for business setup:</P>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>Advantages of Mainland Company Formation in Dubai</h3>
+                <ul class="cs_mb_30 cs_list cs_style_1">
+                    <li><strong>Broader Market Access: </strong> Mainland companies have the flexibility to operate and trade throughout Dubai and across the UAE, providing access to a larger and more diverse market.</li>
+                    <li><strong>Full Ownership: </strong> Unlike some other business structures, mainland company formation allows for 100% foreign ownership, granting you complete control and operational flexibility.</li>
+                    <li><strong>Versatile Location Options: </strong> Mainland companies can choose from a variety of locations to establish their business, enabling you to select the most suitable site for your operational needs.</li>
+                </ul>
+                <p>These benefits make mainland company formation a compelling choice for entrepreneurs seeking to maximize their business potential and capitalize on growth opportunities in Dubai and beyond.</p>
+                <h3>Business Advisory and Consultancy </h3>
+                <p>Our Business Advisory and Consultancy services offer comprehensive support to companies in the UAE, Europe, Singapore, and the Middle East, focusing on strategic growth and market adaptation. We provide expert advice on market entry, business expansion, and navigating complex regulatory landscapes across these diverse regions. By leveraging our in-depth knowledge of local markets and global industry trends, we help businesses develop effective strategies, optimize their operations, and achieve long-term success. Whether you're looking to establish a new venture or expand an existing one, our tailored consultancy services are designed to guide you through every stage of your business journey.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Team Section -->
 @endsection("content")
