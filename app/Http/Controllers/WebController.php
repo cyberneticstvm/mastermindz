@@ -30,6 +30,70 @@ class WebController extends Controller
     {
         return view('services');
     }
+    function servicesLegal()
+    {
+        $title = "";
+        $desc = "";
+        $keywords = "";
+        $canonical = "";
+        return view('services.legal', compact('title', 'desc', 'keywords', 'canonical'));
+    }
+    function servicesBank()
+    {
+        $title = "";
+        $desc = "";
+        $keywords = "";
+        $canonical = "";
+        return view('services.bank', compact('title', 'desc', 'keywords', 'canonical'));
+    }
+    function servicesBrand()
+    {
+        $title = "";
+        $desc = "";
+        $keywords = "";
+        $canonical = "";
+        return view('services.brand', compact('title', 'desc', 'keywords', 'canonical'));
+    }
+    function servicesPro()
+    {
+        $title = "";
+        $desc = "";
+        $keywords = "";
+        $canonical = "";
+        return view('services.pro', compact('title', 'desc', 'keywords', 'canonical'));
+    }
+    function servicesVisa()
+    {
+        $title = "";
+        $desc = "";
+        $keywords = "";
+        $canonical = "";
+        return view('services.visa', compact('title', 'desc', 'keywords', 'canonical'));
+    }
+    function servicesOffice()
+    {
+        $title = "";
+        $desc = "";
+        $keywords = "";
+        $canonical = "";
+        return view('services.office', compact('title', 'desc', 'keywords', 'canonical'));
+    }
+    function servicesWill()
+    {
+        $title = "";
+        $desc = "";
+        $keywords = "";
+        $canonical = "";
+        return view('services.will', compact('title', 'desc', 'keywords', 'canonical'));
+    }
+    function servicesDifc()
+    {
+        $title = "";
+        $desc = "";
+        $keywords = "";
+        $canonical = "";
+        return view('services.difc', compact('title', 'desc', 'keywords', 'canonical'));
+    }
     function privacy()
     {
         return view('privacy-policy');

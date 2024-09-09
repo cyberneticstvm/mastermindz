@@ -32,16 +32,16 @@
                             <li><a href="{{ route('business.setup') }}">Business SetUp</a></li>
                             <li><a href="{{ route('accounting.and.taxation') }}">Accounting and Taxation</a></li>
                             <li class="menu-item-has-children">
-                                <a href="{{ route('services') }}">Services</a>
+                                <a href="javascript:void(0)">Services</a>
                                 <ul>
-                                    <li><a href="{{ route('services') }}">Legal and Compliance Services</a></li>
-                                    <li><a href="{{ route('services') }}">Bank Account Opening </a></li>
-                                    <li><a href="{{ route('services') }}">Brand Registration / Trademark Registration</a></li>
-                                    <li><a href="{{ route('services') }}">PRO Services</a></li>
-                                    <li><a href="{{ route('services') }}">Golden Visa</a></li>
-                                    <li><a href="{{ route('services') }}">Single and Multiple Family Office </a></li>
-                                    <li><a href="{{ route('services') }}">Will Preparation Service</a></li>
-                                    <li><a href="{{ route('services') }}">DIFC AND ADGM foundation and Trustee Services </a></li>
+                                    <li><a href="{{ route('services.legal') }}">Legal and Compliance Services</a></li>
+                                    <li><a href="{{ route('services.bank') }}">Bank Account Opening </a></li>
+                                    <li><a href="{{ route('services.brand') }}">Brand Registration / Trademark Registration</a></li>
+                                    <li><a href="{{ route('services.pro') }}">PRO Services</a></li>
+                                    <li><a href="{{ route('services.visa') }}">Golden Visa</a></li>
+                                    <li><a href="{{ route('services.office') }}">Single and Multiple Family Office </a></li>
+                                    <li><a href="{{ route('services.will') }}">Will Preparation Service</a></li>
+                                    <li><a href="{{ route('services.difc') }}">DIFC AND ADGM foundation and Trustee Services </a></li>
                                 </ul>
                             </li>
                             <li><a href="{{ route('contact') }}">Contact</a></li>

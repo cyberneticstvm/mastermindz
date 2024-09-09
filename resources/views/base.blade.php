@@ -66,7 +66,6 @@
                             <h2 class="cs_widget_title text-white cs_fs_22 cs_mb_22">Explore</h2>
                             <ul class="cs_menu_widget text-uppercase">
                                 <li><a href="{{ route('about') }}">About</a></li>
-                                <li><a href="{{ route('services') }}">Services</a></li>
                                 <li><a href="#">Privacy Policy</a></li>
                                 <li><a href="#">Careers</a></li>
                                 <li><a href="{{ route('contact') }}">Contact</a></li>
