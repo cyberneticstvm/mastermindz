@@ -5296,3 +5296,10 @@ html .ui-button.ui-state-disabled:active {
 .cs_product_slider:hover .cs_slider_next {
   opacity: 1;
 }/*# sourceMappingURL=style.css.map */
+
+.floating {
+  position:fixed;
+	bottom:100px;
+	right:20px;
+  z-index: 9999;
+}

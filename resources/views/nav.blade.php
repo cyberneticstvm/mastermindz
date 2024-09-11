@@ -22,8 +22,8 @@
         <div class="container">
             <div class="cs_main_header_in">
                 <div class="cs_main_header_left">
-                    <a class="cs_site_branding" href="index.html">
-                        <img src="{{ asset('/assets/img/favicon.png') }}" alt="Logo">
+                    <a class="cs_site_branding" href="{{ route('index') }}">
+                        <img src="{{ asset('/assets/img/mm-logo.png') }}" alt="Logo">
                     </a>
                     <div class="cs_nav cs_primary_font fw-medium">
                         <ul class="cs_nav_list fw-medium text-uppercase">

@@ -32,6 +32,10 @@
     </div>
     @include("nav")
     @yield("content")
+    <!--Whatsapp-->
+    <div class="floating">
+        <a href="https://api.whatsapp.com/send?phone=971545485795&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank"><img src="{{ asset('/assets/img/whatsapp.svg') }}" alt="MasterMindz Whatsapp" /></a>
+    </div>
     <!-- Start Footer -->
     <footer class="cs_footer background-filled text-white" data-src="{{ asset('/assets/img/footer_bg.jpeg') }}">
         <div class="container">
@@ -61,14 +65,31 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 offset-lg-1">
+                    <div class="col-lg-4">
                         <div class="cs_footer_item cs_pt_20 cs_pb_20">
                             <h2 class="cs_widget_title text-white cs_fs_22 cs_mb_22">Explore</h2>
                             <ul class="cs_menu_widget text-uppercase">
-                                <li><a href="{{ route('about') }}">About</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
                                 <li><a href="#">Careers</a></li>
-                                <li><a href="{{ route('contact') }}">Contact</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="{{ route('about') }}">About Us</a></li>
+                                <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="cs_footer_item cs_pt_20 cs_pb_20">
+                            <h2 class="cs_widget_title text-white cs_fs_22 cs_mb_22">Services</h2>
+                            <ul class="cs_menu_widget text-uppercase">
+                                <li><a href="{{ route('business.setup') }}">Business SetUp</a></li>
+                                <li><a href="{{ route('accounting.and.taxation') }}">Accounting & Taxation</a></li>
+                                <li><a href="{{ route('services.legal') }}">Legal and Compliance</a></li>
+                                <li><a href="{{ route('services.bank') }}">Bank Account Opening</a></li>
+                                <li><a href="{{ route('services.pro') }}">PRO</a></li>
+                                <li><a href="{{ route('services.visa') }}">Golden Visa</a></li>
+                                <li><a href="{{ route('services.office') }}">Family Office</a></li>
+                                <li><a href="{{ route('services.will') }}">Will Preparation</a></li>
+                                <li><a href="{{ route('services.brand') }}">Brand / Trademark Registration</a></li>
+                                <li><a href="{{ route('services.difc') }}">DIFC AND ADGM foundation and Trustee</a></li>
                             </ul>
                         </div>
                     </div>
