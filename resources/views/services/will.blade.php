@@ -58,7 +58,7 @@
                     </div>
                     <div class="cs_progressbar cs_style_1 cs_mb_20">
                         <div class="cs_progressbar_heading d-flex justify-content-between align-items-center cs_mb_8">
-                            <h3 class="fw-medium m-0 cs_fs_18">Single and Multiple Family Office</h3>
+                            <h3 class="fw-medium m-0 cs_fs_18">Will Preparation Services</h3>
                             <p class="cs_fs_14 cs_lh_base m-0">100%</p>
                         </div>
                         <div class="cs_progress cs_rounded_8 overflow-hidden" data-progress="100">
@@ -77,6 +77,16 @@
                         </a>
                     </div>
                 </div>
+            </div>
+            <div class="col-lg-12">
+                <h5 class="mt-5">Types of Wills Offered by DIFC Wills Registry</h5>
+                <ul class="cs_mb_30 cs_list cs_style_1">
+                    <li><strong>DIFC Full Will: </strong>This comprehensive will address both the distribution of assets and the appointment of guardians for minor children.</li>
+                    <li><strong>DIFC Financial Assets Will: </strong>Specifically designed for financial assets, this will cover money, shares, or securities held in UAE banks or financial institutions. It can include up to 10 separate bank accounts or shares in up to 10 different accounts, whether registered solely or jointly.</li>
+                    <li><strong>DIFC Guardianship Will: </strong>Tailored for the appointment of guardians, this will also addresses the distribution of financial assets within UAE banks or financial institutions, with provisions for up to 10 separate bank accounts or shareholdings.</li>
+                    <li><strong>DIFC Property Will: </strong>This will pertains to real estate ownership within the UAE. It allows for the designation of beneficiaries for up to five properties (or shares in up to five real estate assets) located in the UAE.</li>
+                    <li><strong>DIFC Business Owners Will: </strong>Designed for business owners, this will facilitates the transfer of company shares without the need for probate. It permits the appointment of beneficiaries for up to five separate shareholdings in a UAE free zone or onshore company, provided the shares are in a company operating under UAE Federal Law.</li>
+                </ul>
             </div>
         </div>
     </div>
