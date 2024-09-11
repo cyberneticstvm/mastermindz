@@ -76,7 +76,19 @@
                             <span class="cs_ml_15">Watch the video</span>
                         </a>
                     </div>
+                    <h5 class="mt-5">How Can MasterMindz Business Compliance Services Assist You?</h5>
+                    <p>Navigating the complex landscape of UAE regulations can be challenging. At MasterMindz, we offer comprehensive business compliance services to ensure your company remains fully compliant with all legal requirements. Our team will keep you informed about any regulatory changes, minimizing the risk of non-compliance and unexpected penalties.<br />We manage a wide range of compliance activities, including employee registration with the Ministry of Human Resources and Emiratisation (MOHRE), obtaining trade licenses, and filing tax returns. Our goal is to relieve your business of these administrative burdens, allowing you to focus on your core operations.</p>
                 </div>
+            </div>
+            <div class="col-lg-12">
+                <h5 class="mt-5">Understanding Economic Substance Regulations (ESR) and Ultimate Beneficial Owners (UBO)</h5>
+                <h6>Economic Substance Regulations (ESR):</h6>
+                <p>ESR mandates that companies operating in the UAE demonstrate a substantial economic presence within the country. This requirement ensures transparency in financial dealings and prevents misuse of offshore accounts. If your business engages in any “Relevant Activities” such as shipping, insurance, banking, or intellectual property, you must comply with annual filing requirements to avoid penalties. Companies must disclose their income, activities, and tax statuses, and pass specific Economic Substance Tests to prove their economic presence in the UAE.</p>
+                <h6>Ultimate Beneficial Owners (UBO):</h6>
+                <p>The UBO regulations require companies to identify and register the individuals who hold significant control or ownership over the business. This often includes individuals with at least 25% shareholding or those who have substantial voting rights. Accurate UBO registration helps prevent money laundering and terrorist financing by ensuring transparency in ownership and control. Our team can assist in registering your UBOs, maintaining detailed records, and ensuring compliance with the latest regulations.</p>
+                <h6>The Importance of Business Compliance</h6>
+                <p>Maintaining compliance with UAE laws is crucial for avoiding legal issues and operational disruptions. MasterMindz provides expert guidance on regulatory requirements, helping your business navigate the complexities of UAE compliance efficiently.<br /><a href="{{ route('contact') }}" class="text-accent">Contact us</a> today to learn more about our business compliance services and how we can support your company's regulatory needs.
+                </p>
             </div>
         </div>
     </div>
