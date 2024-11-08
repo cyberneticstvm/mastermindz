@@ -42,7 +42,7 @@
             <div class="cs_footer_top d-flex justify-content-between align-items-start align-items-md-center cs_pt_46 cs_pb_46 cs_column_gap_15 cs_row_gap_15 flex-md-row  flex-column">
                 <div class="cs_footer_contact_info">
                     <h3 class="text-accent fw-normal cs_mb_4 cs_fs_16 cs_lh_lg">Have Any Question?</h3>
-                    <h2 class="text-white fw-medium m-0 cs_fs_22">+971 54 548 5795 </h2>
+                    <h2 class="text-white fw-medium m-0 cs_fs_22"> </h2>
                 </div>
                 <div class="cs_footer_logo wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.2s"><img src="{{ asset('/assets/img/favicon.png') }}" alt="Logo"></div>
                 <div class="cs_footer_contact_info">

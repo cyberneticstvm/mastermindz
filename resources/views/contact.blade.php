@@ -115,7 +115,7 @@
                         </div>
                         <div>
                             <p class="text-accent cs_mb_7">Have Any Question?</p>
-                            <h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">+971 54 548 5795, +971 52 661 0501</h2>
+                            <h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base"></h2>
                         </div>
                     </div>
                     <div class="d-flex align-items-center cs_mb_30">
